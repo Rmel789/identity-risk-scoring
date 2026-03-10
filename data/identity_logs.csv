@@ -1,0 +1,2001 @@
+timestamp,user_id,department,location,resource_accessed,failed_logins,privilege_escalation,mfa_bypass,new_device,session_duration_min,is_anomalous
+2024-01-01 00:10:00,user_039,Sales,Unknown,payroll,8,0,0,1,13,1
+2024-01-01 01:01:00,user_032,HR,London,database,10,1,0,1,4,1
+2024-01-01 09:11:00,user_043,Finance,Chicago,file_share,1,0,0,1,113,0
+2024-01-01 09:40:00,user_003,Finance,Remote,database,1,0,0,1,40,0
+2024-01-01 10:23:00,user_037,Executive,New York,hr_system,0,0,0,0,113,0
+2024-01-01 11:02:00,user_032,IT,New York,hr_system,1,0,0,1,103,0
+2024-01-01 14:29:00,user_041,Engineering,New York,email,0,0,0,1,30,0
+2024-01-01 15:34:00,user_034,HR,Remote,database,0,0,0,1,64,0
+2024-01-01 15:52:00,user_006,HR,New York,payroll,1,0,0,1,57,0
+2024-01-01 16:10:00,user_014,Finance,Remote,email,0,0,0,1,19,0
+2024-01-01 16:17:00,user_014,HR,New York,email,0,0,0,1,94,0
+2024-01-01 17:33:00,user_034,Engineering,Remote,email,1,0,0,1,87,0
+2024-01-01 18:31:00,user_038,HR,Chicago,vpn,0,0,0,0,75,0
+2024-01-01 22:03:00,user_031,Engineering,London,admin_panel,3,0,0,1,21,1
+2024-01-02 01:57:00,user_038,Executive,Unknown,admin_panel,3,1,0,0,11,1
+2024-01-02 09:47:00,user_041,Executive,Chicago,hr_system,1,0,0,0,51,0
+2024-01-02 11:12:00,user_015,IT,Chicago,database,1,0,0,0,78,0
+2024-01-02 11:12:00,user_039,HR,Remote,vpn,1,0,0,0,62,0
+2024-01-02 12:26:00,user_012,Sales,New York,hr_system,1,0,0,0,29,0
+2024-01-02 13:16:00,user_042,Finance,Remote,database,1,0,0,0,10,0
+2024-01-02 15:51:00,user_049,Engineering,Chicago,payroll,1,0,0,1,35,0
+2024-01-02 16:06:00,user_017,HR,Remote,database,1,0,0,1,76,0
+2024-01-02 16:18:00,user_034,Executive,Chicago,email,1,0,0,1,7,0
+2024-01-02 18:59:00,user_015,Executive,New York,file_share,1,0,0,1,84,0
+2024-01-02 19:30:00,user_038,Sales,New York,database,0,0,0,1,51,0
+2024-01-02 22:31:00,user_005,Sales,Unknown,admin_panel,6,1,1,0,13,1
+2024-01-03 11:07:00,user_040,Engineering,Remote,payroll,1,0,0,1,92,0
+2024-01-03 11:34:00,user_004,Sales,Remote,hr_system,1,0,0,0,60,0
+2024-01-03 11:36:00,user_031,Sales,Remote,vpn,1,0,0,1,115,0
+2024-01-03 12:55:00,user_006,Sales,Remote,admin_panel,0,0,0,1,22,0
+2024-01-03 14:59:00,user_033,Finance,Remote,admin_panel,1,0,0,0,12,0
+2024-01-03 17:29:00,user_001,Finance,Remote,database,1,0,0,1,88,0
+2024-01-03 17:52:00,user_009,Sales,Chicago,file_share,0,0,0,1,33,0
+2024-01-03 19:10:00,user_006,IT,New York,file_share,0,0,0,0,86,0
+2024-01-03 19:15:00,user_001,HR,Remote,email,1,0,0,0,79,0
+2024-01-03 23:28:00,user_035,IT,London,database,5,1,1,1,11,1
+2024-01-04 00:36:00,user_050,Sales,Unknown,admin_panel,8,0,0,0,12,1
+2024-01-04 08:51:00,user_014,Sales,New York,vpn,1,0,0,0,103,0
+2024-01-04 08:55:00,user_004,Executive,New York,hr_system,1,0,0,1,65,0
+2024-01-04 13:02:00,user_043,Engineering,Remote,vpn,0,0,0,0,24,0
+2024-01-04 13:23:00,user_002,HR,Chicago,payroll,0,0,0,1,106,0
+2024-01-04 15:37:00,user_039,Engineering,Chicago,database,0,0,0,0,7,0
+2024-01-04 18:11:00,user_008,Executive,Chicago,hr_system,1,0,0,1,106,0
+2024-01-04 18:48:00,user_030,Engineering,New York,hr_system,0,0,0,0,53,0
+2024-01-04 23:20:00,user_014,HR,Unknown,admin_panel,9,1,0,1,27,1
+2024-01-05 09:20:00,user_046,HR,Chicago,file_share,0,0,0,0,29,0
+2024-01-05 10:01:00,user_026,Finance,Remote,hr_system,0,0,0,0,42,0
+2024-01-05 10:20:00,user_030,HR,Remote,database,1,0,0,0,11,0
+2024-01-05 13:34:00,user_006,Sales,Chicago,payroll,0,0,0,0,55,0
+2024-01-05 15:34:00,user_027,IT,Remote,file_share,1,0,0,0,78,0
+2024-01-05 16:49:00,user_013,Executive,New York,email,1,0,0,0,31,0
+2024-01-05 17:39:00,user_004,Sales,Chicago,payroll,0,0,0,1,112,0
+2024-01-05 18:36:00,user_006,IT,New York,payroll,0,0,0,1,53,0
+2024-01-05 19:04:00,user_037,Sales,Remote,vpn,1,0,0,0,6,0
+2024-01-05 23:51:00,user_016,Finance,Unknown,payroll,4,0,0,1,24,1
+2024-01-06 03:30:00,user_028,Finance,Unknown,payroll,10,0,0,1,19,1
+2024-01-06 11:10:00,user_037,Executive,Remote,file_share,1,0,0,0,117,0
+2024-01-06 11:38:00,user_030,HR,Chicago,vpn,1,0,0,0,20,0
+2024-01-06 16:13:00,user_040,Engineering,Chicago,file_share,1,0,0,0,56,0
+2024-01-06 18:25:00,user_007,Executive,Remote,payroll,1,0,0,0,77,0
+2024-01-06 18:41:00,user_035,Engineering,Chicago,admin_panel,1,0,0,1,29,0
+2024-01-07 01:32:00,user_030,Executive,Unknown,payroll,7,1,1,1,11,1
+2024-01-07 07:50:00,user_020,HR,Chicago,database,1,0,0,1,8,0
+2024-01-07 09:18:00,user_025,IT,Chicago,file_share,0,0,0,0,88,0
+2024-01-07 10:06:00,user_004,Engineering,New York,file_share,1,0,0,0,26,0
+2024-01-07 10:07:00,user_009,Engineering,Chicago,hr_system,1,0,0,0,68,0
+2024-01-07 12:23:00,user_015,Sales,New York,database,1,0,0,1,71,0
+2024-01-07 12:59:00,user_033,Engineering,New York,vpn,1,0,0,1,11,0
+2024-01-07 13:41:00,user_022,HR,New York,payroll,1,0,0,0,17,0
+2024-01-07 14:27:00,user_022,Executive,Remote,email,0,0,0,1,112,0
+2024-01-07 16:11:00,user_041,Engineering,Remote,email,0,0,0,1,17,0
+2024-01-07 17:08:00,user_004,Sales,Chicago,hr_system,1,0,0,1,42,0
+2024-01-08 00:08:00,user_011,Sales,London,payroll,10,0,0,1,2,1
+2024-01-08 02:41:00,user_040,Executive,Unknown,payroll,10,1,0,1,29,1
+2024-01-08 08:02:00,user_045,Sales,Chicago,database,1,0,0,0,34,0
+2024-01-08 09:37:00,user_007,Executive,Chicago,admin_panel,0,0,0,0,48,0
+2024-01-08 09:46:00,user_005,Executive,New York,vpn,1,0,0,1,117,0
+2024-01-08 11:31:00,user_034,HR,Chicago,file_share,1,0,0,0,23,0
+2024-01-08 12:03:00,user_038,Sales,Remote,file_share,1,0,0,0,21,0
+2024-01-08 13:45:00,user_014,Executive,Remote,email,0,0,0,0,46,0
+2024-01-08 14:44:00,user_017,HR,Chicago,database,1,0,0,0,87,0
+2024-01-08 15:40:00,user_047,IT,Remote,email,0,0,0,1,103,0
+2024-01-08 16:02:00,user_042,Sales,New York,vpn,1,0,0,0,10,0
+2024-01-08 16:14:00,user_033,HR,New York,email,1,0,0,1,12,0
+2024-01-08 16:40:00,user_042,HR,Remote,vpn,1,0,0,1,118,0
+2024-01-08 17:32:00,user_002,Sales,Remote,hr_system,1,0,0,0,74,0
+2024-01-08 19:10:00,user_010,Executive,New York,file_share,0,0,0,1,31,0
+2024-01-08 23:08:00,user_030,HR,London,database,6,1,1,1,22,1
+2024-01-09 02:36:00,user_030,Finance,London,admin_panel,6,0,0,1,26,1
+2024-01-09 08:03:00,user_039,IT,Remote,admin_panel,0,0,0,1,45,0
+2024-01-09 08:39:00,user_008,IT,New York,vpn,0,0,0,1,22,0
+2024-01-09 11:25:00,user_048,Sales,Remote,vpn,1,0,0,0,85,0
+2024-01-09 12:30:00,user_021,IT,New York,email,1,0,0,0,86,0
+2024-01-09 13:30:00,user_046,Executive,Chicago,hr_system,0,0,0,1,60,0
+2024-01-09 16:08:00,user_009,IT,Remote,admin_panel,0,0,0,0,97,0
+2024-01-09 16:17:00,user_020,HR,Chicago,database,0,0,0,1,87,0
+2024-01-09 16:50:00,user_050,HR,Chicago,database,0,0,0,0,24,0
+2024-01-09 17:37:00,user_009,HR,Chicago,database,1,0,0,1,94,0
+2024-01-09 23:59:00,user_039,HR,Unknown,payroll,6,1,1,0,19,1
+2024-01-10 00:24:00,user_050,Executive,London,payroll,10,0,0,1,9,1
+2024-01-10 08:16:00,user_016,HR,Chicago,admin_panel,0,0,0,1,21,0
+2024-01-10 09:02:00,user_030,HR,Remote,admin_panel,0,0,0,1,68,0
+2024-01-10 09:51:00,user_017,Engineering,New York,database,1,0,0,0,14,0
+2024-01-10 09:59:00,user_001,Engineering,Chicago,admin_panel,0,0,0,1,33,0
+2024-01-10 10:41:00,user_009,HR,New York,vpn,1,0,0,0,97,0
+2024-01-10 10:46:00,user_021,IT,Remote,hr_system,0,0,0,1,54,0
+2024-01-10 11:05:00,user_023,Executive,Chicago,payroll,0,0,0,1,54,0
+2024-01-10 12:06:00,user_029,Finance,Remote,vpn,0,0,0,1,6,0
+2024-01-10 12:23:00,user_047,Sales,Chicago,email,0,0,0,0,82,0
+2024-01-10 13:56:00,user_024,HR,Remote,database,0,0,0,0,54,0
+2024-01-10 15:20:00,user_005,IT,Chicago,vpn,0,0,0,1,89,0
+2024-01-10 16:16:00,user_035,IT,New York,file_share,0,0,0,0,81,0
+2024-01-10 23:32:00,user_014,Executive,London,admin_panel,7,0,0,0,12,1
+2024-01-10 23:41:00,user_047,Sales,Unknown,admin_panel,8,1,0,0,20,1
+2024-01-11 03:45:00,user_007,Finance,London,payroll,9,1,0,0,13,1
+2024-01-11 07:21:00,user_035,Engineering,New York,email,1,0,0,1,20,0
+2024-01-11 07:51:00,user_033,Finance,Remote,database,1,0,0,0,7,0
+2024-01-11 08:25:00,user_025,Finance,Remote,database,1,0,0,1,7,0
+2024-01-11 13:02:00,user_028,Sales,New York,database,0,0,0,1,98,0
+2024-01-11 14:18:00,user_033,Executive,Chicago,admin_panel,0,0,0,0,116,0
+2024-01-11 15:39:00,user_032,IT,New York,vpn,1,0,0,1,53,0
+2024-01-11 15:43:00,user_019,Engineering,Chicago,hr_system,1,0,0,0,73,0
+2024-01-11 15:53:00,user_032,HR,Remote,hr_system,0,0,0,0,16,0
+2024-01-11 15:58:00,user_028,HR,Remote,payroll,0,0,0,0,32,0
+2024-01-11 16:20:00,user_008,Finance,Remote,database,1,0,0,0,12,0
+2024-01-11 16:31:00,user_017,Engineering,Remote,vpn,0,0,0,1,114,0
+2024-01-11 19:41:00,user_048,HR,New York,hr_system,0,0,0,0,36,0
+2024-01-11 19:41:00,user_002,Sales,New York,hr_system,0,0,0,1,40,0
+2024-01-11 19:46:00,user_034,Sales,Remote,vpn,1,0,0,1,97,0
+2024-01-11 22:52:00,user_033,IT,London,payroll,8,0,0,1,14,1
+2024-01-12 01:47:00,user_005,IT,London,payroll,3,0,1,1,28,1
+2024-01-12 07:15:00,user_031,Sales,New York,hr_system,1,0,0,0,78,0
+2024-01-12 08:57:00,user_019,Sales,Chicago,email,1,0,0,0,27,0
+2024-01-12 09:01:00,user_049,HR,New York,payroll,0,0,0,0,65,0
+2024-01-12 09:02:00,user_024,Executive,New York,database,0,0,0,1,102,0
+2024-01-12 11:32:00,user_011,HR,New York,vpn,1,0,0,0,60,0
+2024-01-12 11:56:00,user_024,Sales,New York,hr_system,0,0,0,0,11,0
+2024-01-12 12:33:00,user_027,Executive,Remote,admin_panel,1,0,0,0,11,0
+2024-01-12 12:34:00,user_040,Engineering,Chicago,vpn,1,0,0,1,99,0
+2024-01-12 15:45:00,user_046,HR,New York,hr_system,1,0,0,0,49,0
+2024-01-12 16:57:00,user_003,Engineering,Chicago,vpn,0,0,0,0,103,0
+2024-01-12 18:28:00,user_025,Finance,Remote,payroll,0,0,0,1,51,0
+2024-01-12 19:13:00,user_008,Sales,Remote,vpn,1,0,0,0,47,0
+2024-01-13 07:17:00,user_040,Sales,New York,vpn,0,0,0,0,115,0
+2024-01-13 10:12:00,user_042,Engineering,Chicago,payroll,1,0,0,1,68,0
+2024-01-13 10:17:00,user_041,Finance,Remote,vpn,1,0,0,1,42,0
+2024-01-13 11:27:00,user_043,Executive,New York,admin_panel,1,0,0,1,5,0
+2024-01-13 11:36:00,user_009,HR,New York,database,1,0,0,0,10,0
+2024-01-13 12:17:00,user_032,IT,Chicago,file_share,0,0,0,0,75,0
+2024-01-13 12:55:00,user_035,IT,Remote,vpn,1,0,0,1,39,0
+2024-01-13 16:06:00,user_034,Sales,Chicago,database,1,0,0,0,45,0
+2024-01-13 17:20:00,user_020,Executive,Remote,database,0,0,0,0,11,0
+2024-01-13 17:40:00,user_047,Sales,Remote,payroll,1,0,0,1,10,0
+2024-01-13 17:48:00,user_036,Sales,Chicago,payroll,1,0,0,0,17,0
+2024-01-13 19:07:00,user_020,Executive,Remote,email,0,0,0,1,80,0
+2024-01-14 07:39:00,user_037,Sales,Chicago,vpn,1,0,0,1,80,0
+2024-01-14 17:14:00,user_040,Finance,New York,email,0,0,0,0,57,0
+2024-01-14 17:28:00,user_004,HR,Remote,payroll,1,0,0,0,39,0
+2024-01-14 17:38:00,user_024,Engineering,Chicago,payroll,1,0,0,1,13,0
+2024-01-14 22:30:00,user_004,Finance,London,payroll,3,1,0,1,23,1
+2024-01-15 03:04:00,user_015,Executive,London,payroll,9,1,0,1,7,1
+2024-01-15 07:06:00,user_046,HR,Remote,database,1,0,0,1,40,0
+2024-01-15 07:36:00,user_010,Executive,New York,email,1,0,0,1,103,0
+2024-01-15 14:36:00,user_033,IT,Chicago,vpn,1,0,0,1,91,0
+2024-01-15 15:20:00,user_016,HR,Remote,vpn,0,0,0,0,92,0
+2024-01-15 15:32:00,user_001,Finance,Chicago,database,0,0,0,1,22,0
+2024-01-15 16:41:00,user_006,Sales,Chicago,file_share,0,0,0,0,94,0
+2024-01-15 17:20:00,user_030,Executive,Remote,database,0,0,0,0,110,0
+2024-01-15 23:40:00,user_045,Executive,London,admin_panel,7,0,1,1,7,1
+2024-01-16 00:17:00,user_008,Finance,Unknown,database,9,1,0,1,1,1
+2024-01-16 02:36:00,user_029,Engineering,London,database,6,1,0,1,22,1
+2024-01-16 03:43:00,user_045,IT,Unknown,database,4,1,0,1,7,1
+2024-01-16 07:05:00,user_021,Engineering,New York,hr_system,0,0,0,0,23,0
+2024-01-16 07:22:00,user_016,Finance,Chicago,vpn,1,0,0,1,108,0
+2024-01-16 08:31:00,user_016,Executive,New York,hr_system,0,0,0,0,6,0
+2024-01-16 08:35:00,user_025,Executive,Remote,file_share,0,0,0,0,47,0
+2024-01-16 09:53:00,user_018,Finance,Chicago,hr_system,1,0,0,1,31,0
+2024-01-16 10:45:00,user_032,Sales,Remote,hr_system,1,0,0,0,59,0
+2024-01-16 17:10:00,user_010,IT,New York,file_share,1,0,0,1,28,0
+2024-01-16 17:36:00,user_007,Executive,Chicago,vpn,0,0,0,0,19,0
+2024-01-16 17:42:00,user_007,Sales,Chicago,file_share,1,0,0,0,32,0
+2024-01-16 18:36:00,user_023,Finance,Chicago,vpn,0,0,0,1,22,0
+2024-01-17 02:02:00,user_013,Executive,Unknown,database,4,1,1,1,4,1
+2024-01-17 07:15:00,user_045,IT,New York,vpn,0,0,0,1,27,0
+2024-01-17 08:52:00,user_031,Finance,New York,file_share,1,0,0,1,67,0
+2024-01-17 09:44:00,user_047,Executive,Chicago,payroll,1,0,0,0,65,0
+2024-01-17 10:00:00,user_027,Finance,Chicago,database,1,0,0,0,114,0
+2024-01-17 11:33:00,user_008,IT,Chicago,payroll,1,0,0,1,96,0
+2024-01-17 13:20:00,user_016,Executive,Chicago,payroll,1,0,0,0,113,0
+2024-01-17 14:24:00,user_038,Sales,New York,database,0,0,0,1,31,0
+2024-01-17 17:06:00,user_048,Engineering,Chicago,database,0,0,0,0,7,0
+2024-01-17 17:44:00,user_039,IT,Remote,database,0,0,0,1,96,0
+2024-01-18 03:46:00,user_042,Sales,London,admin_panel,6,1,1,1,28,1
+2024-01-18 07:27:00,user_013,IT,Remote,payroll,0,0,0,1,76,0
+2024-01-18 08:38:00,user_034,Sales,New York,payroll,0,0,0,0,56,0
+2024-01-18 09:28:00,user_037,Sales,Chicago,payroll,1,0,0,1,61,0
+2024-01-18 09:33:00,user_037,IT,Remote,file_share,0,0,0,0,58,0
+2024-01-18 09:33:00,user_028,Finance,New York,admin_panel,1,0,0,0,116,0
+2024-01-18 11:42:00,user_049,Sales,Chicago,hr_system,0,0,0,1,17,0
+2024-01-18 12:27:00,user_003,IT,Remote,payroll,0,0,0,1,84,0
+2024-01-18 15:09:00,user_036,Sales,New York,vpn,0,0,0,1,70,0
+2024-01-18 15:36:00,user_023,Sales,Remote,database,0,0,0,0,109,0
+2024-01-18 16:12:00,user_006,Executive,Remote,payroll,1,0,0,0,89,0
+2024-01-18 16:45:00,user_034,Finance,New York,email,0,0,0,0,120,0
+2024-01-18 17:00:00,user_022,Finance,Chicago,database,0,0,0,0,57,0
+2024-01-18 17:30:00,user_050,HR,New York,hr_system,1,0,0,1,7,0
+2024-01-18 17:58:00,user_045,Finance,New York,file_share,1,0,0,0,68,0
+2024-01-19 01:31:00,user_049,Finance,London,payroll,3,0,0,0,12,1
+2024-01-19 07:05:00,user_005,Finance,New York,admin_panel,1,0,0,0,27,0
+2024-01-19 08:09:00,user_011,Engineering,Remote,database,0,0,0,1,36,0
+2024-01-19 09:28:00,user_031,Sales,Remote,payroll,0,0,0,0,42,0
+2024-01-19 11:38:00,user_024,HR,New York,email,0,0,0,0,116,0
+2024-01-19 17:44:00,user_016,Finance,Chicago,email,1,0,0,1,120,0
+2024-01-19 19:24:00,user_041,HR,Remote,vpn,1,0,0,1,81,0
+2024-01-19 22:25:00,user_036,IT,London,database,5,1,0,1,15,1
+2024-01-20 10:22:00,user_022,Sales,Remote,admin_panel,1,0,0,1,69,0
+2024-01-20 10:54:00,user_024,Engineering,Chicago,hr_system,0,0,0,0,22,0
+2024-01-20 11:51:00,user_019,IT,Chicago,admin_panel,1,0,0,0,115,0
+2024-01-20 13:03:00,user_015,Engineering,New York,admin_panel,0,0,0,1,73,0
+2024-01-20 13:10:00,user_002,IT,New York,file_share,0,0,0,0,48,0
+2024-01-20 13:29:00,user_036,Sales,Remote,hr_system,0,0,0,0,109,0
+2024-01-20 14:49:00,user_049,Finance,Remote,database,1,0,0,1,81,0
+2024-01-20 15:02:00,user_047,Finance,Remote,hr_system,0,0,0,0,102,0
+2024-01-21 02:09:00,user_038,Sales,Unknown,admin_panel,5,1,1,1,5,1
+2024-01-21 09:11:00,user_016,Sales,Remote,payroll,0,0,0,1,84,0
+2024-01-21 10:03:00,user_006,IT,New York,admin_panel,0,0,0,1,46,0
+2024-01-21 10:46:00,user_041,Finance,Remote,database,1,0,0,1,106,0
+2024-01-21 11:53:00,user_021,Engineering,Chicago,payroll,1,0,0,1,7,0
+2024-01-21 14:33:00,user_006,Executive,Remote,payroll,1,0,0,0,36,0
+2024-01-21 17:52:00,user_026,Finance,Remote,vpn,1,0,0,0,16,0
+2024-01-21 18:27:00,user_032,Sales,Chicago,payroll,0,0,0,1,82,0
+2024-01-21 18:37:00,user_008,Executive,Remote,admin_panel,1,0,0,0,117,0
+2024-01-22 00:37:00,user_037,Finance,London,database,4,0,0,0,26,1
+2024-01-22 08:05:00,user_021,HR,New York,hr_system,1,0,0,0,60,0
+2024-01-22 08:18:00,user_027,Sales,New York,payroll,0,0,0,1,20,0
+2024-01-22 09:38:00,user_038,HR,Chicago,hr_system,1,0,0,1,76,0
+2024-01-22 09:48:00,user_025,HR,Chicago,database,0,0,0,1,61,0
+2024-01-22 10:11:00,user_003,HR,Remote,email,1,0,0,0,21,0
+2024-01-22 10:44:00,user_024,IT,Chicago,payroll,1,0,0,1,117,0
+2024-01-22 11:31:00,user_004,HR,Remote,database,0,0,0,0,69,0
+2024-01-22 11:52:00,user_032,HR,Chicago,database,1,0,0,0,40,0
+2024-01-22 13:24:00,user_006,HR,Chicago,email,1,0,0,0,78,0
+2024-01-22 14:47:00,user_015,Sales,Chicago,hr_system,1,0,0,0,69,0
+2024-01-22 16:24:00,user_040,HR,New York,database,1,0,0,0,15,0
+2024-01-22 16:36:00,user_009,IT,Remote,payroll,1,0,0,1,33,0
+2024-01-22 16:37:00,user_008,Engineering,Remote,vpn,1,0,0,0,45,0
+2024-01-22 17:39:00,user_013,Executive,Chicago,file_share,1,0,0,1,61,0
+2024-01-22 18:04:00,user_021,IT,Chicago,payroll,0,0,0,1,102,0
+2024-01-22 18:10:00,user_026,Sales,Chicago,email,0,0,0,1,113,0
+2024-01-22 18:17:00,user_043,IT,New York,payroll,0,0,0,0,61,0
+2024-01-22 19:18:00,user_021,Engineering,New York,email,1,0,0,1,76,0
+2024-01-22 19:40:00,user_031,Executive,Chicago,file_share,0,0,0,0,76,0
+2024-01-23 01:02:00,user_031,Engineering,Unknown,database,9,0,0,1,23,1
+2024-01-23 08:01:00,user_006,Engineering,Remote,database,1,0,0,1,75,0
+2024-01-23 09:31:00,user_010,Sales,Remote,database,0,0,0,1,111,0
+2024-01-23 09:40:00,user_010,IT,New York,file_share,1,0,0,1,62,0
+2024-01-23 10:10:00,user_004,Finance,New York,file_share,1,0,0,0,97,0
+2024-01-23 11:40:00,user_030,HR,Chicago,database,0,0,0,1,57,0
+2024-01-23 12:27:00,user_044,Engineering,Remote,database,1,0,0,1,118,0
+2024-01-23 15:52:00,user_004,Executive,Chicago,hr_system,0,0,0,0,62,0
+2024-01-23 16:38:00,user_011,Engineering,Remote,admin_panel,0,0,0,0,31,0
+2024-01-23 17:03:00,user_031,Finance,Chicago,file_share,1,0,0,0,73,0
+2024-01-23 18:28:00,user_032,Finance,New York,admin_panel,0,0,0,1,90,0
+2024-01-23 23:40:00,user_012,Engineering,Unknown,admin_panel,6,0,0,1,24,1
+2024-01-24 11:31:00,user_022,HR,Chicago,vpn,1,0,0,0,38,0
+2024-01-24 14:21:00,user_049,Executive,Remote,hr_system,0,0,0,1,48,0
+2024-01-24 14:42:00,user_002,IT,Chicago,admin_panel,1,0,0,0,112,0
+2024-01-24 14:56:00,user_037,IT,Remote,hr_system,1,0,0,0,81,0
+2024-01-24 14:57:00,user_006,IT,New York,database,1,0,0,0,11,0
+2024-01-24 16:08:00,user_013,Executive,Remote,email,1,0,0,1,17,0
+2024-01-24 18:15:00,user_050,IT,Remote,email,0,0,0,0,78,0
+2024-01-24 23:00:00,user_042,HR,Unknown,admin_panel,9,0,0,1,7,1
+2024-01-25 02:35:00,user_043,Executive,London,admin_panel,10,0,1,0,20,1
+2024-01-25 07:47:00,user_023,Engineering,Remote,hr_system,0,0,0,0,90,0
+2024-01-25 10:29:00,user_050,Engineering,Chicago,vpn,0,0,0,0,65,0
+2024-01-25 11:07:00,user_007,HR,Chicago,file_share,1,0,0,0,92,0
+2024-01-25 12:28:00,user_026,HR,Remote,hr_system,0,0,0,1,7,0
+2024-01-25 13:26:00,user_029,Engineering,Chicago,payroll,1,0,0,1,59,0
+2024-01-25 18:15:00,user_014,Executive,Chicago,payroll,1,0,0,1,21,0
+2024-01-26 07:27:00,user_033,IT,Remote,hr_system,1,0,0,1,29,0
+2024-01-26 08:49:00,user_011,Finance,Remote,hr_system,0,0,0,1,109,0
+2024-01-26 12:10:00,user_035,Finance,Remote,database,0,0,0,0,86,0
+2024-01-26 12:43:00,user_026,IT,Chicago,payroll,0,0,0,1,107,0
+2024-01-26 14:13:00,user_031,Finance,Remote,admin_panel,1,0,0,0,54,0
+2024-01-26 16:47:00,user_020,Engineering,Chicago,database,0,0,0,0,85,0
+2024-01-26 17:58:00,user_001,HR,Chicago,hr_system,0,0,0,1,79,0
+2024-01-26 18:27:00,user_050,Engineering,Remote,admin_panel,1,0,0,0,94,0
+2024-01-26 22:45:00,user_007,Executive,London,admin_panel,9,0,0,0,6,1
+2024-01-26 23:13:00,user_049,Finance,London,admin_panel,8,0,0,1,11,1
+2024-01-26 23:48:00,user_018,IT,Unknown,database,10,1,1,0,4,1
+2024-01-27 01:47:00,user_041,Executive,London,admin_panel,6,0,0,1,14,1
+2024-01-27 03:28:00,user_046,IT,Unknown,payroll,3,1,0,1,3,1
+2024-01-27 07:28:00,user_037,HR,Remote,admin_panel,0,0,0,1,96,0
+2024-01-27 08:29:00,user_026,Sales,Remote,database,0,0,0,0,20,0
+2024-01-27 11:06:00,user_025,HR,Remote,admin_panel,0,0,0,0,51,0
+2024-01-27 11:36:00,user_038,Executive,New York,file_share,0,0,0,0,107,0
+2024-01-27 12:39:00,user_004,Executive,Chicago,admin_panel,0,0,0,0,33,0
+2024-01-27 13:33:00,user_036,HR,New York,admin_panel,1,0,0,0,112,0
+2024-01-27 17:16:00,user_018,IT,New York,admin_panel,0,0,0,1,65,0
+2024-01-27 19:33:00,user_047,IT,New York,payroll,0,0,0,1,106,0
+2024-01-28 08:39:00,user_031,HR,Remote,payroll,0,0,0,0,114,0
+2024-01-28 09:34:00,user_039,HR,New York,vpn,1,0,0,0,32,0
+2024-01-28 09:49:00,user_017,Finance,New York,payroll,1,0,0,0,15,0
+2024-01-28 10:17:00,user_027,Engineering,Remote,vpn,0,0,0,0,35,0
+2024-01-28 10:49:00,user_029,Executive,Remote,payroll,0,0,0,0,32,0
+2024-01-28 11:50:00,user_001,Finance,Remote,email,1,0,0,0,11,0
+2024-01-28 13:43:00,user_042,IT,Chicago,payroll,1,0,0,1,96,0
+2024-01-28 16:04:00,user_012,HR,New York,admin_panel,0,0,0,0,68,0
+2024-01-28 16:38:00,user_048,HR,New York,email,1,0,0,1,41,0
+2024-01-28 18:21:00,user_008,Engineering,New York,admin_panel,0,0,0,1,10,0
+2024-01-28 18:26:00,user_049,Executive,New York,payroll,0,0,0,0,32,0
+2024-01-28 19:14:00,user_018,Sales,Remote,payroll,0,0,0,1,35,0
+2024-01-28 19:44:00,user_027,Executive,New York,file_share,0,0,0,1,116,0
+2024-01-28 22:37:00,user_034,IT,London,database,8,0,1,1,15,1
+2024-01-29 00:13:00,user_037,IT,Unknown,admin_panel,7,0,0,1,22,1
+2024-01-29 08:14:00,user_041,HR,Remote,admin_panel,1,0,0,1,58,0
+2024-01-29 08:34:00,user_028,Sales,New York,email,1,0,0,1,13,0
+2024-01-29 09:57:00,user_035,IT,New York,file_share,1,0,0,0,61,0
+2024-01-29 10:11:00,user_002,Executive,Remote,database,1,0,0,0,54,0
+2024-01-29 12:44:00,user_019,Sales,Remote,vpn,1,0,0,1,120,0
+2024-01-29 13:41:00,user_012,IT,New York,payroll,0,0,0,1,31,0
+2024-01-29 14:10:00,user_019,Executive,Chicago,hr_system,0,0,0,0,18,0
+2024-01-29 14:48:00,user_046,Engineering,New York,file_share,1,0,0,1,89,0
+2024-01-29 15:49:00,user_022,Executive,New York,database,0,0,0,0,107,0
+2024-01-29 17:15:00,user_039,Engineering,New York,hr_system,0,0,0,0,19,0
+2024-01-29 18:23:00,user_035,IT,New York,database,1,0,0,1,93,0
+2024-01-29 19:40:00,user_029,Sales,New York,database,0,0,0,1,21,0
+2024-01-30 03:32:00,user_048,Sales,Unknown,admin_panel,3,1,1,1,19,1
+2024-01-30 07:59:00,user_033,HR,New York,admin_panel,1,0,0,0,65,0
+2024-01-30 09:16:00,user_030,HR,Remote,database,1,0,0,1,10,0
+2024-01-30 09:16:00,user_042,Executive,Remote,file_share,0,0,0,0,100,0
+2024-01-30 10:17:00,user_006,Finance,Remote,vpn,0,0,0,1,94,0
+2024-01-30 10:30:00,user_035,IT,Chicago,payroll,0,0,0,1,15,0
+2024-01-30 10:53:00,user_011,IT,Remote,admin_panel,0,0,0,1,20,0
+2024-01-30 13:58:00,user_042,Sales,New York,email,1,0,0,1,37,0
+2024-01-30 14:42:00,user_013,Sales,New York,vpn,0,0,0,0,64,0
+2024-01-30 15:24:00,user_003,Engineering,New York,vpn,1,0,0,0,114,0
+2024-01-30 15:57:00,user_019,Engineering,Remote,email,1,0,0,0,108,0
+2024-01-30 16:16:00,user_012,Engineering,Chicago,email,0,0,0,0,113,0
+2024-01-30 16:36:00,user_012,Executive,Remote,hr_system,1,0,0,1,108,0
+2024-01-30 16:45:00,user_002,HR,Chicago,database,1,0,0,0,119,0
+2024-01-30 18:28:00,user_030,Sales,Remote,admin_panel,1,0,0,0,102,0
+2024-01-30 18:40:00,user_043,IT,Chicago,admin_panel,1,0,0,1,69,0
+2024-01-30 19:21:00,user_039,IT,Remote,vpn,1,0,0,1,91,0
+2024-01-30 19:28:00,user_039,Sales,Chicago,admin_panel,1,0,0,0,48,0
+2024-01-30 19:44:00,user_034,Sales,Remote,admin_panel,0,0,0,0,60,0
+2024-01-31 07:42:00,user_047,HR,Remote,file_share,0,0,0,1,44,0
+2024-01-31 10:29:00,user_050,Engineering,New York,payroll,0,0,0,0,40,0
+2024-01-31 11:10:00,user_034,Sales,Chicago,email,1,0,0,1,40,0
+2024-01-31 11:14:00,user_036,Executive,Chicago,file_share,1,0,0,0,45,0
+2024-01-31 11:25:00,user_013,HR,Chicago,vpn,1,0,0,1,62,0
+2024-01-31 11:32:00,user_033,Engineering,Remote,admin_panel,1,0,0,0,76,0
+2024-01-31 11:38:00,user_005,HR,New York,vpn,0,0,0,0,50,0
+2024-01-31 11:54:00,user_008,Finance,Chicago,file_share,1,0,0,0,25,0
+2024-01-31 12:00:00,user_030,Executive,Chicago,file_share,1,0,0,0,15,0
+2024-01-31 12:23:00,user_026,Finance,Chicago,admin_panel,0,0,0,1,35,0
+2024-01-31 13:59:00,user_037,IT,Chicago,file_share,1,0,0,0,100,0
+2024-01-31 16:23:00,user_021,Executive,Chicago,file_share,0,0,0,0,27,0
+2024-01-31 17:45:00,user_046,Sales,Chicago,file_share,1,0,0,1,13,0
+2024-01-31 17:50:00,user_019,IT,New York,email,1,0,0,0,107,0
+2024-01-31 17:57:00,user_038,Executive,New York,payroll,0,0,0,0,115,0
+2024-01-31 22:14:00,user_033,IT,London,database,4,0,0,1,25,1
+2024-01-31 22:21:00,user_028,Executive,Unknown,admin_panel,8,1,1,1,18,1
+2024-02-01 07:43:00,user_047,Executive,Chicago,database,0,0,0,0,40,0
+2024-02-01 09:09:00,user_034,IT,Remote,database,0,0,0,0,109,0
+2024-02-01 09:18:00,user_018,Finance,New York,database,0,0,0,1,26,0
+2024-02-01 13:44:00,user_011,Sales,New York,file_share,0,0,0,0,97,0
+2024-02-01 15:29:00,user_015,IT,New York,email,1,0,0,0,82,0
+2024-02-01 15:41:00,user_018,Finance,Remote,email,1,0,0,0,29,0
+2024-02-01 16:20:00,user_014,HR,New York,payroll,1,0,0,1,98,0
+2024-02-01 16:40:00,user_002,IT,Remote,hr_system,0,0,0,0,16,0
+2024-02-01 18:24:00,user_002,Executive,Remote,hr_system,1,0,0,0,75,0
+2024-02-01 19:31:00,user_035,Finance,New York,database,1,0,0,0,36,0
+2024-02-02 03:53:00,user_021,Executive,London,database,3,0,0,0,7,1
+2024-02-02 08:02:00,user_039,IT,Remote,admin_panel,1,0,0,0,88,0
+2024-02-02 08:47:00,user_026,Executive,New York,database,0,0,0,1,104,0
+2024-02-02 09:23:00,user_032,Sales,Remote,payroll,1,0,0,1,98,0
+2024-02-02 13:22:00,user_011,Finance,Remote,payroll,1,0,0,1,94,0
+2024-02-02 14:37:00,user_049,HR,Remote,hr_system,1,0,0,1,6,0
+2024-02-02 15:34:00,user_023,Finance,Remote,admin_panel,1,0,0,0,69,0
+2024-02-02 16:55:00,user_029,Sales,New York,file_share,0,0,0,1,99,0
+2024-02-02 18:34:00,user_013,HR,New York,file_share,0,0,0,1,10,0
+2024-02-02 19:44:00,user_019,Sales,Chicago,email,0,0,0,0,34,0
+2024-02-03 13:14:00,user_047,IT,Chicago,admin_panel,0,0,0,0,115,0
+2024-02-03 13:19:00,user_013,HR,Remote,file_share,1,0,0,0,113,0
+2024-02-03 13:42:00,user_009,Engineering,New York,database,0,0,0,0,42,0
+2024-02-03 13:50:00,user_009,HR,Chicago,payroll,1,0,0,0,103,0
+2024-02-03 15:30:00,user_005,Sales,Remote,database,0,0,0,1,97,0
+2024-02-03 18:48:00,user_024,Executive,New York,file_share,0,0,0,1,11,0
+2024-02-03 18:55:00,user_049,IT,Chicago,payroll,0,0,0,0,23,0
+2024-02-04 07:31:00,user_012,Engineering,Remote,email,1,0,0,0,109,0
+2024-02-04 08:08:00,user_044,Executive,Chicago,payroll,1,0,0,0,29,0
+2024-02-04 08:21:00,user_030,HR,Chicago,database,1,0,0,1,30,0
+2024-02-04 08:44:00,user_024,Finance,Chicago,database,1,0,0,1,115,0
+2024-02-04 11:07:00,user_022,Finance,Chicago,email,0,0,0,1,90,0
+2024-02-04 12:01:00,user_033,Sales,New York,email,1,0,0,0,117,0
+2024-02-04 12:46:00,user_036,Sales,New York,payroll,1,0,0,1,83,0
+2024-02-04 14:13:00,user_013,IT,Remote,hr_system,0,0,0,1,87,0
+2024-02-04 15:28:00,user_043,HR,Chicago,admin_panel,1,0,0,0,80,0
+2024-02-04 17:08:00,user_036,HR,Chicago,vpn,1,0,0,0,14,0
+2024-02-04 17:37:00,user_048,IT,Remote,admin_panel,1,0,0,0,71,0
+2024-02-04 23:32:00,user_004,HR,London,admin_panel,9,0,0,0,13,1
+2024-02-05 01:05:00,user_042,Executive,London,payroll,9,0,0,1,26,1
+2024-02-05 07:02:00,user_010,Sales,Chicago,database,0,0,0,1,107,0
+2024-02-05 07:54:00,user_044,Executive,New York,email,0,0,0,0,47,0
+2024-02-05 09:00:00,user_044,HR,New York,database,1,0,0,1,52,0
+2024-02-05 10:03:00,user_010,Sales,Chicago,vpn,0,0,0,0,94,0
+2024-02-05 10:14:00,user_024,Finance,Chicago,payroll,1,0,0,0,14,0
+2024-02-05 10:41:00,user_020,HR,Chicago,database,0,0,0,0,115,0
+2024-02-05 11:05:00,user_046,IT,Chicago,admin_panel,1,0,0,1,98,0
+2024-02-05 12:23:00,user_002,Engineering,New York,email,0,0,0,1,63,0
+2024-02-05 13:10:00,user_009,Sales,Remote,database,1,0,0,1,76,0
+2024-02-05 14:44:00,user_046,Finance,New York,email,1,0,0,1,62,0
+2024-02-05 15:28:00,user_026,IT,New York,vpn,0,0,0,1,28,0
+2024-02-05 16:14:00,user_042,Engineering,Chicago,vpn,0,0,0,0,81,0
+2024-02-05 16:48:00,user_002,Finance,Chicago,database,0,0,0,0,89,0
+2024-02-05 18:01:00,user_037,Executive,Chicago,database,1,0,0,0,116,0
+2024-02-05 18:25:00,user_004,HR,New York,email,1,0,0,0,82,0
+2024-02-05 18:28:00,user_048,Engineering,New York,email,0,0,0,1,110,0
+2024-02-05 18:53:00,user_027,Executive,Remote,email,1,0,0,0,19,0
+2024-02-05 19:32:00,user_024,Executive,New York,payroll,0,0,0,1,25,0
+2024-02-06 00:17:00,user_025,IT,Unknown,admin_panel,6,0,0,0,26,1
+2024-02-06 09:55:00,user_012,HR,Chicago,file_share,0,0,0,1,13,0
+2024-02-06 10:25:00,user_030,Engineering,Chicago,hr_system,1,0,0,1,18,0
+2024-02-06 11:54:00,user_025,Sales,Chicago,vpn,0,0,0,1,12,0
+2024-02-06 13:34:00,user_026,Finance,New York,file_share,0,0,0,0,89,0
+2024-02-06 14:09:00,user_030,Engineering,Chicago,payroll,1,0,0,1,58,0
+2024-02-06 14:47:00,user_049,IT,New York,admin_panel,1,0,0,1,81,0
+2024-02-06 15:12:00,user_028,IT,Remote,vpn,1,0,0,0,104,0
+2024-02-06 16:45:00,user_022,HR,New York,email,0,0,0,0,113,0
+2024-02-07 00:06:00,user_031,HR,Unknown,database,5,0,0,1,17,1
+2024-02-07 00:54:00,user_032,HR,London,database,10,1,1,0,27,1
+2024-02-07 07:05:00,user_039,Finance,New York,hr_system,1,0,0,1,79,0
+2024-02-07 07:11:00,user_036,Executive,Remote,payroll,0,0,0,0,88,0
+2024-02-07 07:15:00,user_030,Finance,Chicago,vpn,1,0,0,0,42,0
+2024-02-07 09:55:00,user_036,Finance,Chicago,database,0,0,0,0,103,0
+2024-02-07 10:49:00,user_043,Sales,Chicago,hr_system,0,0,0,0,44,0
+2024-02-07 12:05:00,user_045,Finance,Remote,payroll,0,0,0,0,112,0
+2024-02-07 12:05:00,user_027,Engineering,Chicago,admin_panel,0,0,0,0,39,0
+2024-02-07 14:16:00,user_020,Sales,New York,admin_panel,1,0,0,1,6,0
+2024-02-07 15:43:00,user_002,Finance,Chicago,database,1,0,0,1,89,0
+2024-02-07 16:59:00,user_047,IT,Remote,email,0,0,0,1,6,0
+2024-02-08 00:08:00,user_033,Executive,Unknown,database,4,1,1,0,25,1
+2024-02-08 00:11:00,user_004,Executive,London,admin_panel,5,1,0,1,29,1
+2024-02-08 00:49:00,user_030,Finance,Unknown,payroll,4,0,1,1,22,1
+2024-02-08 08:26:00,user_018,IT,Remote,database,1,0,0,0,77,0
+2024-02-08 09:41:00,user_033,Executive,Remote,admin_panel,0,0,0,1,88,0
+2024-02-08 11:10:00,user_050,Sales,Chicago,admin_panel,0,0,0,1,15,0
+2024-02-08 13:36:00,user_050,Engineering,New York,hr_system,1,0,0,0,71,0
+2024-02-08 17:49:00,user_038,IT,Remote,file_share,1,0,0,1,55,0
+2024-02-09 03:00:00,user_028,Engineering,London,admin_panel,4,0,1,1,30,1
+2024-02-09 12:04:00,user_009,IT,New York,email,0,0,0,0,104,0
+2024-02-09 12:41:00,user_033,Sales,Chicago,admin_panel,0,0,0,1,71,0
+2024-02-09 13:16:00,user_031,IT,Chicago,file_share,1,0,0,1,6,0
+2024-02-09 13:52:00,user_024,Executive,Remote,database,0,0,0,1,105,0
+2024-02-09 16:04:00,user_006,IT,Remote,email,1,0,0,1,85,0
+2024-02-09 18:11:00,user_012,Engineering,Remote,payroll,1,0,0,0,36,0
+2024-02-09 18:54:00,user_035,Sales,Remote,admin_panel,1,0,0,0,45,0
+2024-02-10 07:09:00,user_024,HR,Remote,database,0,0,0,0,91,0
+2024-02-10 07:25:00,user_037,Finance,New York,hr_system,1,0,0,0,27,0
+2024-02-10 07:32:00,user_029,Engineering,Remote,admin_panel,1,0,0,0,44,0
+2024-02-10 07:35:00,user_022,IT,Remote,payroll,0,0,0,1,88,0
+2024-02-10 07:41:00,user_043,Engineering,New York,payroll,0,0,0,1,114,0
+2024-02-10 12:43:00,user_016,IT,New York,file_share,1,0,0,0,110,0
+2024-02-10 14:11:00,user_004,Finance,Remote,payroll,1,0,0,0,11,0
+2024-02-10 15:04:00,user_014,IT,New York,vpn,0,0,0,0,57,0
+2024-02-10 15:40:00,user_003,Executive,New York,database,1,0,0,0,109,0
+2024-02-10 19:10:00,user_044,Finance,New York,payroll,1,0,0,0,46,0
+2024-02-10 22:48:00,user_041,Engineering,London,admin_panel,5,0,0,1,20,1
+2024-02-11 00:19:00,user_021,Finance,Unknown,payroll,9,0,0,1,13,1
+2024-02-11 08:05:00,user_011,HR,Chicago,hr_system,1,0,0,1,34,0
+2024-02-11 09:21:00,user_002,Sales,New York,email,0,0,0,0,66,0
+2024-02-11 09:23:00,user_007,HR,Remote,database,0,0,0,0,81,0
+2024-02-11 11:05:00,user_024,IT,Remote,payroll,0,0,0,1,62,0
+2024-02-11 15:44:00,user_020,HR,Chicago,admin_panel,1,0,0,1,50,0
+2024-02-11 16:28:00,user_017,Finance,New York,payroll,0,0,0,0,35,0
+2024-02-11 18:26:00,user_017,Executive,Chicago,admin_panel,1,0,0,0,69,0
+2024-02-11 19:15:00,user_013,IT,New York,hr_system,0,0,0,1,46,0
+2024-02-11 19:50:00,user_016,IT,Chicago,admin_panel,1,0,0,0,76,0
+2024-02-11 19:52:00,user_045,HR,New York,database,0,0,0,1,18,0
+2024-02-12 00:20:00,user_049,IT,Unknown,payroll,3,0,0,0,23,1
+2024-02-12 07:53:00,user_010,HR,Remote,file_share,0,0,0,1,101,0
+2024-02-12 11:03:00,user_008,Finance,Chicago,vpn,1,0,0,0,61,0
+2024-02-12 14:20:00,user_024,Finance,Remote,file_share,0,0,0,0,88,0
+2024-02-12 18:40:00,user_032,Engineering,Chicago,vpn,1,0,0,0,78,0
+2024-02-12 19:16:00,user_001,HR,Chicago,vpn,1,0,0,1,14,0
+2024-02-12 22:06:00,user_049,IT,Unknown,payroll,3,0,0,0,24,1
+2024-02-13 10:21:00,user_026,Engineering,Chicago,hr_system,1,0,0,0,70,0
+2024-02-13 13:37:00,user_025,HR,New York,hr_system,1,0,0,1,102,0
+2024-02-13 14:10:00,user_028,Finance,Chicago,file_share,1,0,0,0,114,0
+2024-02-13 15:53:00,user_016,Engineering,Remote,vpn,0,0,0,0,9,0
+2024-02-13 16:28:00,user_043,Sales,Remote,database,0,0,0,0,27,0
+2024-02-13 16:40:00,user_024,Executive,Chicago,hr_system,0,0,0,0,25,0
+2024-02-13 18:15:00,user_012,Executive,Remote,admin_panel,1,0,0,1,92,0
+2024-02-13 18:26:00,user_002,Finance,New York,database,0,0,0,0,98,0
+2024-02-13 19:14:00,user_023,Finance,New York,database,1,0,0,1,31,0
+2024-02-13 19:19:00,user_023,HR,Remote,hr_system,0,0,0,1,83,0
+2024-02-13 23:32:00,user_035,Finance,London,payroll,10,0,1,0,29,1
+2024-02-14 07:43:00,user_045,IT,Remote,admin_panel,0,0,0,1,76,0
+2024-02-14 10:14:00,user_014,IT,Chicago,admin_panel,1,0,0,1,60,0
+2024-02-14 12:51:00,user_008,Sales,Remote,vpn,1,0,0,1,105,0
+2024-02-14 15:46:00,user_025,IT,Chicago,database,0,0,0,1,53,0
+2024-02-14 17:20:00,user_009,Executive,Chicago,payroll,1,0,0,1,33,0
+2024-02-14 17:46:00,user_010,HR,New York,vpn,1,0,0,1,37,0
+2024-02-14 17:47:00,user_019,Finance,Chicago,hr_system,1,0,0,1,56,0
+2024-02-14 19:22:00,user_050,Executive,Chicago,hr_system,1,0,0,1,114,0
+2024-02-15 03:20:00,user_022,Sales,London,database,8,0,1,0,14,1
+2024-02-15 03:49:00,user_039,Executive,London,admin_panel,10,0,0,1,21,1
+2024-02-15 07:57:00,user_021,Engineering,New York,vpn,1,0,0,0,20,0
+2024-02-15 08:22:00,user_041,Engineering,New York,hr_system,1,0,0,0,119,0
+2024-02-15 08:50:00,user_024,Executive,Chicago,payroll,1,0,0,1,73,0
+2024-02-15 09:59:00,user_026,Engineering,Chicago,payroll,1,0,0,1,41,0
+2024-02-15 10:25:00,user_004,Executive,Chicago,vpn,1,0,0,1,72,0
+2024-02-15 10:50:00,user_002,Engineering,Chicago,vpn,1,0,0,1,69,0
+2024-02-15 13:01:00,user_048,Finance,New York,payroll,0,0,0,1,105,0
+2024-02-15 13:16:00,user_004,Sales,Remote,admin_panel,0,0,0,0,103,0
+2024-02-15 14:22:00,user_005,IT,Remote,file_share,0,0,0,0,96,0
+2024-02-15 14:45:00,user_044,Sales,Chicago,database,0,0,0,0,109,0
+2024-02-15 15:15:00,user_012,HR,Remote,vpn,1,0,0,0,7,0
+2024-02-15 15:49:00,user_001,IT,Remote,admin_panel,1,0,0,0,98,0
+2024-02-15 16:06:00,user_002,Sales,Remote,admin_panel,0,0,0,1,120,0
+2024-02-15 16:40:00,user_015,Finance,New York,database,0,0,0,1,100,0
+2024-02-15 17:22:00,user_045,Executive,New York,database,1,0,0,0,115,0
+2024-02-15 18:41:00,user_014,HR,Remote,file_share,0,0,0,1,95,0
+2024-02-16 02:40:00,user_046,HR,London,payroll,10,1,1,1,20,1
+2024-02-16 08:28:00,user_004,IT,Chicago,database,1,0,0,1,103,0
+2024-02-16 08:48:00,user_018,Sales,Chicago,hr_system,1,0,0,1,5,0
+2024-02-16 09:28:00,user_001,Finance,New York,email,0,0,0,1,10,0
+2024-02-16 11:16:00,user_035,Executive,Chicago,payroll,1,0,0,1,63,0
+2024-02-16 12:08:00,user_037,Executive,Chicago,vpn,0,0,0,1,50,0
+2024-02-16 15:20:00,user_016,Executive,Remote,vpn,1,0,0,1,85,0
+2024-02-16 15:55:00,user_043,Executive,New York,admin_panel,0,0,0,1,20,0
+2024-02-16 16:34:00,user_018,Engineering,Chicago,email,0,0,0,0,98,0
+2024-02-16 16:42:00,user_005,Executive,Chicago,admin_panel,1,0,0,1,21,0
+2024-02-16 18:29:00,user_041,Executive,New York,hr_system,1,0,0,1,50,0
+2024-02-17 02:05:00,user_030,Finance,Unknown,admin_panel,7,1,1,1,8,1
+2024-02-17 07:22:00,user_001,HR,Chicago,file_share,0,0,0,1,50,0
+2024-02-17 08:36:00,user_016,Finance,New York,email,0,0,0,0,62,0
+2024-02-17 08:44:00,user_039,Executive,Remote,database,0,0,0,1,42,0
+2024-02-17 10:09:00,user_009,Finance,New York,database,1,0,0,0,51,0
+2024-02-17 12:58:00,user_038,Executive,Chicago,database,1,0,0,0,28,0
+2024-02-17 13:21:00,user_008,Engineering,Chicago,hr_system,1,0,0,1,93,0
+2024-02-17 16:45:00,user_041,Engineering,New York,hr_system,1,0,0,1,41,0
+2024-02-17 17:11:00,user_011,Engineering,Chicago,vpn,1,0,0,1,55,0
+2024-02-17 18:37:00,user_007,Sales,Remote,admin_panel,1,0,0,1,91,0
+2024-02-18 09:49:00,user_027,HR,Chicago,hr_system,1,0,0,0,21,0
+2024-02-18 09:56:00,user_002,HR,Remote,database,0,0,0,0,28,0
+2024-02-18 10:02:00,user_035,Executive,New York,hr_system,0,0,0,0,43,0
+2024-02-18 10:40:00,user_048,HR,New York,database,1,0,0,1,91,0
+2024-02-18 13:14:00,user_025,Finance,Chicago,vpn,1,0,0,1,118,0
+2024-02-18 16:50:00,user_044,Engineering,New York,hr_system,1,0,0,1,75,0
+2024-02-18 18:43:00,user_009,Finance,Remote,vpn,1,0,0,1,28,0
+2024-02-18 18:48:00,user_031,Finance,Remote,vpn,1,0,0,0,56,0
+2024-02-19 03:07:00,user_026,Executive,London,payroll,4,0,0,0,23,1
+2024-02-19 07:08:00,user_047,Finance,Remote,hr_system,0,0,0,1,75,0
+2024-02-19 08:40:00,user_032,Sales,Remote,payroll,0,0,0,1,71,0
+2024-02-19 12:33:00,user_024,Executive,New York,vpn,1,0,0,0,80,0
+2024-02-19 12:52:00,user_016,IT,Chicago,email,0,0,0,0,33,0
+2024-02-19 14:56:00,user_038,IT,Chicago,email,0,0,0,0,116,0
+2024-02-19 15:25:00,user_006,Engineering,Remote,hr_system,0,0,0,1,45,0
+2024-02-19 15:32:00,user_006,IT,Remote,database,1,0,0,0,63,0
+2024-02-19 15:34:00,user_014,Sales,New York,email,0,0,0,0,67,0
+2024-02-19 18:10:00,user_008,IT,Remote,email,1,0,0,0,81,0
+2024-02-19 19:48:00,user_037,Finance,New York,email,0,0,0,1,120,0
+2024-02-19 23:05:00,user_032,Sales,London,database,6,0,0,1,9,1
+2024-02-20 00:39:00,user_002,Finance,London,database,6,0,0,0,7,1
+2024-02-20 07:01:00,user_019,Executive,Remote,payroll,1,0,0,0,41,0
+2024-02-20 07:11:00,user_007,Finance,New York,payroll,1,0,0,0,54,0
+2024-02-20 08:11:00,user_047,IT,Chicago,vpn,0,0,0,1,23,0
+2024-02-20 08:12:00,user_050,Engineering,Remote,hr_system,1,0,0,0,63,0
+2024-02-20 08:23:00,user_010,Executive,Remote,email,0,0,0,1,30,0
+2024-02-20 11:11:00,user_048,Engineering,Remote,admin_panel,0,0,0,1,55,0
+2024-02-20 12:20:00,user_049,IT,Remote,email,0,0,0,1,19,0
+2024-02-20 12:34:00,user_050,Executive,New York,database,0,0,0,0,112,0
+2024-02-20 18:11:00,user_018,Finance,New York,hr_system,0,0,0,0,30,0
+2024-02-20 19:18:00,user_009,Executive,Remote,payroll,1,0,0,0,58,0
+2024-02-20 19:42:00,user_009,Executive,Chicago,vpn,0,0,0,1,42,0
+2024-02-21 00:50:00,user_009,Engineering,Unknown,database,6,0,0,1,13,1
+2024-02-21 07:18:00,user_038,Sales,New York,file_share,0,0,0,1,11,0
+2024-02-21 08:08:00,user_012,IT,Remote,vpn,0,0,0,0,117,0
+2024-02-21 09:12:00,user_046,Finance,Remote,database,0,0,0,0,36,0
+2024-02-21 14:19:00,user_004,HR,Chicago,database,1,0,0,1,27,0
+2024-02-21 17:27:00,user_014,Finance,New York,admin_panel,0,0,0,0,111,0
+2024-02-21 18:08:00,user_022,IT,Remote,email,0,0,0,0,28,0
+2024-02-21 18:12:00,user_027,Engineering,New York,email,1,0,0,0,73,0
+2024-02-21 19:24:00,user_045,IT,Remote,email,0,0,0,0,52,0
+2024-02-21 19:24:00,user_006,HR,Remote,admin_panel,0,0,0,1,114,0
+2024-02-22 03:09:00,user_005,HR,Unknown,payroll,5,0,0,1,22,1
+2024-02-22 03:29:00,user_030,IT,Unknown,database,9,1,1,1,24,1
+2024-02-22 03:59:00,user_050,IT,London,admin_panel,7,1,0,0,29,1
+2024-02-22 07:14:00,user_040,IT,Chicago,admin_panel,1,0,0,1,28,0
+2024-02-22 12:15:00,user_027,HR,New York,vpn,1,0,0,0,90,0
+2024-02-22 14:41:00,user_001,Sales,Remote,vpn,1,0,0,1,94,0
+2024-02-22 15:18:00,user_028,IT,New York,hr_system,1,0,0,1,19,0
+2024-02-22 23:09:00,user_001,Engineering,Unknown,admin_panel,3,1,1,0,8,1
+2024-02-23 07:21:00,user_022,IT,Chicago,admin_panel,1,0,0,0,31,0
+2024-02-23 07:43:00,user_008,Engineering,Chicago,hr_system,0,0,0,1,79,0
+2024-02-23 09:17:00,user_020,Executive,New York,email,1,0,0,1,94,0
+2024-02-23 09:48:00,user_012,Sales,Remote,database,0,0,0,0,67,0
+2024-02-23 10:53:00,user_012,Executive,Remote,database,1,0,0,1,69,0
+2024-02-23 12:43:00,user_036,Executive,Chicago,database,1,0,0,1,90,0
+2024-02-23 12:58:00,user_010,Finance,New York,email,1,0,0,1,17,0
+2024-02-23 17:15:00,user_003,HR,New York,file_share,0,0,0,0,5,0
+2024-02-23 18:35:00,user_006,Finance,Remote,vpn,1,0,0,0,52,0
+2024-02-23 19:35:00,user_022,Finance,Remote,vpn,0,0,0,0,109,0
+2024-02-24 08:34:00,user_021,IT,New York,admin_panel,0,0,0,1,21,0
+2024-02-24 13:00:00,user_002,Finance,Chicago,database,1,0,0,0,40,0
+2024-02-24 13:02:00,user_013,Finance,Chicago,payroll,0,0,0,0,87,0
+2024-02-24 16:31:00,user_049,IT,Remote,hr_system,0,0,0,1,39,0
+2024-02-24 18:07:00,user_004,Executive,Remote,admin_panel,1,0,0,1,95,0
+2024-02-24 18:28:00,user_034,Sales,New York,file_share,1,0,0,1,93,0
+2024-02-24 18:43:00,user_007,Finance,New York,payroll,1,0,0,1,51,0
+2024-02-24 18:56:00,user_045,HR,Chicago,payroll,1,0,0,0,46,0
+2024-02-24 19:59:00,user_025,IT,Remote,hr_system,0,0,0,1,21,0
+2024-02-25 00:57:00,user_039,IT,Unknown,admin_panel,8,1,1,1,23,1
+2024-02-25 01:04:00,user_002,HR,London,admin_panel,8,0,0,0,1,1
+2024-02-25 08:25:00,user_025,Finance,Chicago,database,0,0,0,0,19,0
+2024-02-25 10:25:00,user_038,Finance,New York,vpn,1,0,0,1,59,0
+2024-02-25 10:28:00,user_042,IT,Chicago,hr_system,0,0,0,0,112,0
+2024-02-25 11:09:00,user_001,Finance,Remote,admin_panel,1,0,0,1,18,0
+2024-02-25 12:48:00,user_037,Finance,Remote,admin_panel,1,0,0,1,120,0
+2024-02-25 13:17:00,user_006,Executive,Chicago,admin_panel,1,0,0,0,49,0
+2024-02-25 16:24:00,user_048,Engineering,Remote,database,0,0,0,1,31,0
+2024-02-25 16:58:00,user_016,HR,New York,database,1,0,0,0,97,0
+2024-02-25 22:05:00,user_024,HR,London,database,10,0,0,1,10,1
+2024-02-26 07:23:00,user_003,Engineering,Remote,admin_panel,1,0,0,0,6,0
+2024-02-26 09:32:00,user_050,HR,New York,email,0,0,0,0,106,0
+2024-02-26 09:57:00,user_024,IT,New York,email,1,0,0,1,14,0
+2024-02-26 10:14:00,user_022,Executive,Chicago,file_share,1,0,0,1,75,0
+2024-02-26 11:26:00,user_009,Finance,New York,admin_panel,0,0,0,0,101,0
+2024-02-26 13:05:00,user_017,Sales,Chicago,admin_panel,1,0,0,1,76,0
+2024-02-26 13:39:00,user_003,Sales,New York,file_share,0,0,0,1,50,0
+2024-02-26 13:40:00,user_038,Engineering,New York,file_share,0,0,0,0,107,0
+2024-02-26 13:54:00,user_018,Executive,Remote,email,0,0,0,0,50,0
+2024-02-26 15:14:00,user_020,HR,New York,payroll,0,0,0,0,64,0
+2024-02-26 16:03:00,user_034,Finance,Remote,vpn,1,0,0,1,28,0
+2024-02-26 18:59:00,user_038,Executive,Chicago,vpn,1,0,0,1,62,0
+2024-02-26 19:27:00,user_016,Executive,New York,payroll,0,0,0,0,107,0
+2024-02-26 19:39:00,user_050,IT,New York,database,1,0,0,0,68,0
+2024-02-27 01:00:00,user_003,HR,Unknown,payroll,9,1,0,1,21,1
+2024-02-27 07:14:00,user_032,Finance,New York,payroll,1,0,0,0,32,0
+2024-02-27 07:23:00,user_031,HR,Chicago,admin_panel,1,0,0,1,39,0
+2024-02-27 07:31:00,user_029,Finance,Remote,vpn,1,0,0,0,36,0
+2024-02-27 08:14:00,user_027,HR,Chicago,admin_panel,1,0,0,0,95,0
+2024-02-27 09:55:00,user_022,HR,Chicago,payroll,1,0,0,1,6,0
+2024-02-27 14:14:00,user_030,Executive,Remote,payroll,1,0,0,0,115,0
+2024-02-27 15:17:00,user_018,Executive,Chicago,admin_panel,0,0,0,0,48,0
+2024-02-27 17:23:00,user_005,Finance,Remote,payroll,1,0,0,1,57,0
+2024-02-27 23:59:00,user_025,HR,Unknown,payroll,6,0,1,0,28,1
+2024-02-28 00:05:00,user_039,Engineering,London,payroll,7,0,0,0,25,1
+2024-02-28 00:13:00,user_018,Finance,Unknown,admin_panel,7,1,0,1,4,1
+2024-02-28 01:24:00,user_045,HR,Unknown,admin_panel,8,1,0,1,5,1
+2024-02-28 12:19:00,user_003,Finance,New York,payroll,1,0,0,0,8,0
+2024-02-28 12:54:00,user_047,Finance,Chicago,database,0,0,0,1,6,0
+2024-02-28 15:46:00,user_002,Finance,Remote,vpn,1,0,0,0,46,0
+2024-02-28 17:07:00,user_037,Executive,Chicago,hr_system,0,0,0,1,105,0
+2024-02-28 19:17:00,user_005,IT,Chicago,payroll,0,0,0,0,20,0
+2024-02-29 08:31:00,user_005,Finance,Remote,file_share,0,0,0,0,81,0
+2024-02-29 09:09:00,user_046,HR,Chicago,file_share,0,0,0,1,93,0
+2024-02-29 09:28:00,user_024,HR,Chicago,admin_panel,0,0,0,1,87,0
+2024-02-29 13:49:00,user_049,IT,Chicago,vpn,0,0,0,1,52,0
+2024-02-29 14:13:00,user_043,Sales,Remote,payroll,1,0,0,0,113,0
+2024-02-29 18:37:00,user_014,Executive,Remote,admin_panel,0,0,0,0,9,0
+2024-02-29 19:06:00,user_021,Sales,Remote,database,1,0,0,1,68,0
+2024-02-29 22:14:00,user_012,Sales,London,payroll,6,0,0,1,5,1
+2024-02-29 22:41:00,user_003,HR,London,payroll,6,1,1,0,26,1
+2024-03-01 07:08:00,user_038,Engineering,Chicago,vpn,0,0,0,1,100,0
+2024-03-01 11:03:00,user_006,Finance,Chicago,admin_panel,0,0,0,1,45,0
+2024-03-01 12:33:00,user_017,Engineering,New York,file_share,0,0,0,0,104,0
+2024-03-01 12:44:00,user_040,Executive,Chicago,email,1,0,0,0,100,0
+2024-03-01 13:27:00,user_032,Engineering,Chicago,database,0,0,0,1,36,0
+2024-03-01 13:51:00,user_029,Sales,Chicago,file_share,1,0,0,1,90,0
+2024-03-01 14:06:00,user_028,Engineering,Chicago,vpn,1,0,0,1,78,0
+2024-03-01 15:44:00,user_045,Engineering,Remote,payroll,1,0,0,0,89,0
+2024-03-01 15:55:00,user_036,Executive,Remote,file_share,0,0,0,1,54,0
+2024-03-01 17:38:00,user_027,HR,Remote,vpn,1,0,0,1,35,0
+2024-03-01 17:41:00,user_013,Engineering,Chicago,file_share,0,0,0,0,41,0
+2024-03-01 18:12:00,user_037,Executive,Remote,vpn,1,0,0,0,116,0
+2024-03-01 18:17:00,user_012,Sales,Remote,vpn,0,0,0,1,114,0
+2024-03-01 19:14:00,user_007,Engineering,Remote,admin_panel,1,0,0,0,120,0
+2024-03-01 19:47:00,user_008,HR,Chicago,payroll,1,0,0,1,32,0
+2024-03-02 09:21:00,user_042,IT,Remote,hr_system,0,0,0,0,88,0
+2024-03-02 10:03:00,user_021,IT,Chicago,payroll,1,0,0,0,15,0
+2024-03-02 10:34:00,user_044,Engineering,Remote,file_share,1,0,0,1,108,0
+2024-03-02 10:42:00,user_031,Sales,New York,vpn,0,0,0,1,73,0
+2024-03-02 19:57:00,user_039,Executive,Chicago,file_share,0,0,0,1,54,0
+2024-03-02 23:21:00,user_035,Finance,Unknown,database,9,0,0,1,18,1
+2024-03-03 12:41:00,user_035,IT,Remote,admin_panel,0,0,0,1,7,0
+2024-03-03 16:12:00,user_039,HR,New York,admin_panel,1,0,0,1,10,0
+2024-03-03 16:50:00,user_021,Engineering,Chicago,file_share,1,0,0,1,53,0
+2024-03-03 18:39:00,user_036,HR,New York,file_share,1,0,0,1,52,0
+2024-03-03 18:41:00,user_042,HR,Chicago,vpn,1,0,0,0,20,0
+2024-03-03 19:38:00,user_043,Finance,Remote,hr_system,1,0,0,0,109,0
+2024-03-03 23:12:00,user_033,Executive,London,database,5,0,0,1,19,1
+2024-03-04 03:56:00,user_014,Engineering,London,payroll,8,0,0,1,24,1
+2024-03-04 08:58:00,user_037,Executive,New York,hr_system,1,0,0,0,26,0
+2024-03-04 09:40:00,user_038,Finance,Chicago,payroll,1,0,0,0,92,0
+2024-03-04 12:16:00,user_011,Engineering,Chicago,admin_panel,0,0,0,1,81,0
+2024-03-04 13:34:00,user_039,Executive,Remote,file_share,1,0,0,1,83,0
+2024-03-04 13:42:00,user_022,Executive,Remote,database,0,0,0,1,49,0
+2024-03-04 15:06:00,user_045,IT,New York,vpn,0,0,0,0,18,0
+2024-03-04 16:26:00,user_029,IT,New York,file_share,1,0,0,0,109,0
+2024-03-04 16:28:00,user_027,IT,Chicago,file_share,0,0,0,1,79,0
+2024-03-04 18:55:00,user_014,Engineering,Chicago,email,1,0,0,0,46,0
+2024-03-05 09:15:00,user_029,HR,Chicago,file_share,1,0,0,1,112,0
+2024-03-05 17:21:00,user_005,Sales,New York,file_share,0,0,0,1,100,0
+2024-03-05 18:18:00,user_007,Executive,Chicago,file_share,0,0,0,0,9,0
+2024-03-05 19:10:00,user_021,Sales,Remote,vpn,0,0,0,1,16,0
+2024-03-05 22:33:00,user_012,IT,Unknown,admin_panel,6,0,1,1,12,1
+2024-03-06 02:01:00,user_038,Engineering,Unknown,database,8,0,0,1,18,1
+2024-03-06 07:58:00,user_031,IT,Chicago,vpn,0,0,0,1,76,0
+2024-03-06 09:33:00,user_022,Engineering,Remote,database,0,0,0,0,29,0
+2024-03-06 11:16:00,user_033,IT,Chicago,file_share,0,0,0,1,38,0
+2024-03-06 11:54:00,user_005,HR,Chicago,vpn,1,0,0,0,99,0
+2024-03-06 13:08:00,user_034,Engineering,Chicago,file_share,0,0,0,1,103,0
+2024-03-06 13:15:00,user_036,Engineering,Remote,database,0,0,0,0,47,0
+2024-03-06 14:05:00,user_036,Engineering,Remote,vpn,1,0,0,1,93,0
+2024-03-06 16:54:00,user_003,Sales,Chicago,vpn,0,0,0,0,47,0
+2024-03-06 17:27:00,user_021,HR,Chicago,email,0,0,0,1,88,0
+2024-03-07 07:10:00,user_038,Executive,Remote,email,0,0,0,0,71,0
+2024-03-07 09:22:00,user_033,Engineering,Chicago,hr_system,1,0,0,0,67,0
+2024-03-07 11:40:00,user_026,Sales,New York,database,0,0,0,0,75,0
+2024-03-07 12:03:00,user_011,HR,New York,admin_panel,1,0,0,1,27,0
+2024-03-07 14:08:00,user_011,Sales,New York,file_share,0,0,0,0,92,0
+2024-03-07 16:00:00,user_041,Finance,Remote,file_share,0,0,0,1,97,0
+2024-03-07 17:19:00,user_046,HR,Chicago,database,0,0,0,0,8,0
+2024-03-07 19:40:00,user_046,Sales,New York,hr_system,1,0,0,0,46,0
+2024-03-08 00:30:00,user_030,Finance,London,payroll,5,1,0,1,28,1
+2024-03-08 07:46:00,user_042,HR,Chicago,vpn,1,0,0,0,69,0
+2024-03-08 11:57:00,user_009,HR,Remote,file_share,1,0,0,1,71,0
+2024-03-08 14:18:00,user_039,Sales,New York,email,0,0,0,1,63,0
+2024-03-08 17:19:00,user_041,Sales,Chicago,database,1,0,0,0,48,0
+2024-03-08 18:41:00,user_032,IT,Chicago,email,0,0,0,0,74,0
+2024-03-08 18:53:00,user_021,HR,Remote,database,0,0,0,0,41,0
+2024-03-08 19:51:00,user_037,Engineering,Remote,file_share,1,0,0,1,52,0
+2024-03-09 12:17:00,user_041,Engineering,Remote,hr_system,1,0,0,0,37,0
+2024-03-09 12:22:00,user_031,Sales,Remote,vpn,0,0,0,1,40,0
+2024-03-09 13:27:00,user_044,IT,New York,payroll,0,0,0,1,80,0
+2024-03-09 13:36:00,user_044,Finance,Remote,vpn,0,0,0,0,97,0
+2024-03-09 14:38:00,user_049,HR,New York,database,1,0,0,0,62,0
+2024-03-09 14:42:00,user_026,HR,New York,vpn,0,0,0,0,58,0
+2024-03-09 15:44:00,user_011,Engineering,New York,vpn,0,0,0,0,7,0
+2024-03-09 17:13:00,user_037,Finance,New York,hr_system,0,0,0,1,70,0
+2024-03-09 17:21:00,user_026,IT,Chicago,admin_panel,0,0,0,0,22,0
+2024-03-09 19:46:00,user_034,Executive,Remote,payroll,1,0,0,0,38,0
+2024-03-10 02:27:00,user_041,Executive,London,payroll,3,0,0,0,26,1
+2024-03-10 07:28:00,user_028,Engineering,Remote,admin_panel,1,0,0,1,17,0
+2024-03-10 07:40:00,user_005,Sales,Remote,admin_panel,1,0,0,1,67,0
+2024-03-10 07:42:00,user_018,Executive,Chicago,vpn,1,0,0,0,35,0
+2024-03-10 08:45:00,user_009,HR,Remote,hr_system,0,0,0,0,98,0
+2024-03-10 12:28:00,user_017,Engineering,Remote,payroll,1,0,0,0,14,0
+2024-03-10 13:38:00,user_029,Engineering,Remote,payroll,1,0,0,0,28,0
+2024-03-10 14:14:00,user_025,Engineering,Remote,hr_system,0,0,0,1,67,0
+2024-03-10 14:23:00,user_025,IT,New York,email,1,0,0,0,21,0
+2024-03-10 15:29:00,user_030,Sales,Remote,admin_panel,0,0,0,0,108,0
+2024-03-10 15:44:00,user_017,Finance,New York,payroll,1,0,0,0,18,0
+2024-03-10 17:07:00,user_013,HR,Remote,file_share,1,0,0,0,25,0
+2024-03-10 17:17:00,user_027,IT,Remote,file_share,0,0,0,0,119,0
+2024-03-10 22:20:00,user_018,Sales,Unknown,admin_panel,8,1,0,1,8,1
+2024-03-11 00:08:00,user_029,IT,London,payroll,5,0,0,1,20,1
+2024-03-11 07:11:00,user_027,Executive,Chicago,database,1,0,0,1,23,0
+2024-03-11 08:46:00,user_023,Executive,New York,email,1,0,0,1,119,0
+2024-03-11 10:03:00,user_008,Finance,Remote,payroll,0,0,0,1,112,0
+2024-03-11 13:02:00,user_038,Finance,New York,email,0,0,0,0,23,0
+2024-03-11 15:06:00,user_004,Sales,Chicago,vpn,0,0,0,0,117,0
+2024-03-11 15:46:00,user_038,IT,New York,file_share,0,0,0,0,113,0
+2024-03-11 17:15:00,user_049,Executive,Chicago,payroll,1,0,0,1,14,0
+2024-03-11 18:30:00,user_008,Executive,New York,vpn,0,0,0,1,17,0
+2024-03-11 18:55:00,user_030,Executive,New York,admin_panel,0,0,0,1,54,0
+2024-03-11 19:02:00,user_011,Executive,Chicago,payroll,1,0,0,0,110,0
+2024-03-11 19:17:00,user_045,Engineering,New York,hr_system,0,0,0,1,86,0
+2024-03-11 19:30:00,user_042,IT,Remote,database,0,0,0,1,105,0
+2024-03-12 02:23:00,user_031,Engineering,Unknown,database,4,0,0,1,29,1
+2024-03-12 03:09:00,user_007,HR,Unknown,payroll,7,1,0,1,17,1
+2024-03-12 07:16:00,user_042,Finance,New York,file_share,0,0,0,0,87,0
+2024-03-12 08:35:00,user_005,Sales,New York,database,0,0,0,0,78,0
+2024-03-12 09:45:00,user_014,Finance,Chicago,admin_panel,0,0,0,0,10,0
+2024-03-12 10:42:00,user_032,Finance,Chicago,file_share,0,0,0,0,17,0
+2024-03-12 13:32:00,user_027,IT,Remote,payroll,0,0,0,1,63,0
+2024-03-12 14:32:00,user_042,HR,Chicago,hr_system,1,0,0,0,103,0
+2024-03-12 17:59:00,user_045,Engineering,Chicago,email,0,0,0,0,27,0
+2024-03-12 18:01:00,user_030,Finance,Chicago,email,0,0,0,1,29,0
+2024-03-12 18:31:00,user_039,Engineering,New York,vpn,1,0,0,1,101,0
+2024-03-12 19:59:00,user_006,Sales,Remote,vpn,0,0,0,0,7,0
+2024-03-12 22:50:00,user_011,Finance,Unknown,admin_panel,8,0,0,0,6,1
+2024-03-13 00:55:00,user_019,Sales,Unknown,admin_panel,8,0,1,1,21,1
+2024-03-13 02:48:00,user_031,HR,Unknown,database,3,0,0,1,13,1
+2024-03-13 08:12:00,user_009,Engineering,New York,file_share,0,0,0,0,22,0
+2024-03-13 11:19:00,user_041,Executive,New York,hr_system,0,0,0,1,54,0
+2024-03-13 11:45:00,user_029,Engineering,Chicago,email,0,0,0,1,14,0
+2024-03-13 14:49:00,user_031,Finance,Chicago,hr_system,1,0,0,1,69,0
+2024-03-13 15:46:00,user_044,HR,Chicago,admin_panel,0,0,0,1,94,0
+2024-03-13 16:05:00,user_005,Sales,New York,file_share,1,0,0,1,53,0
+2024-03-13 16:13:00,user_044,HR,Chicago,payroll,0,0,0,0,90,0
+2024-03-13 17:05:00,user_039,Executive,Remote,database,0,0,0,1,62,0
+2024-03-13 17:05:00,user_029,Finance,Remote,admin_panel,0,0,0,1,16,0
+2024-03-13 19:41:00,user_047,Sales,New York,vpn,0,0,0,1,107,0
+2024-03-13 19:50:00,user_042,HR,Remote,email,0,0,0,0,17,0
+2024-03-14 08:48:00,user_011,Finance,Remote,vpn,1,0,0,1,74,0
+2024-03-14 09:33:00,user_017,Sales,New York,payroll,0,0,0,0,33,0
+2024-03-14 10:19:00,user_031,Finance,Chicago,database,1,0,0,0,93,0
+2024-03-14 11:31:00,user_010,Finance,Remote,file_share,0,0,0,0,107,0
+2024-03-14 11:34:00,user_035,Executive,Chicago,hr_system,1,0,0,1,114,0
+2024-03-14 11:55:00,user_035,Executive,New York,file_share,1,0,0,0,45,0
+2024-03-14 14:02:00,user_028,IT,Remote,email,0,0,0,1,28,0
+2024-03-14 15:13:00,user_040,Engineering,New York,admin_panel,0,0,0,1,11,0
+2024-03-14 15:40:00,user_026,Sales,Chicago,database,1,0,0,0,59,0
+2024-03-14 18:34:00,user_004,HR,Chicago,vpn,0,0,0,0,27,0
+2024-03-14 18:38:00,user_014,Finance,Chicago,hr_system,1,0,0,0,17,0
+2024-03-14 19:17:00,user_044,Finance,Remote,vpn,0,0,0,1,53,0
+2024-03-14 19:18:00,user_004,Sales,Remote,hr_system,0,0,0,0,7,0
+2024-03-14 19:23:00,user_021,IT,Remote,vpn,1,0,0,0,15,0
+2024-03-15 07:54:00,user_019,IT,New York,payroll,0,0,0,1,107,0
+2024-03-15 09:08:00,user_042,HR,Chicago,vpn,0,0,0,0,86,0
+2024-03-15 09:38:00,user_029,Finance,Remote,payroll,0,0,0,1,37,0
+2024-03-15 10:45:00,user_026,HR,Chicago,admin_panel,1,0,0,0,53,0
+2024-03-15 13:30:00,user_044,Engineering,Remote,hr_system,0,0,0,1,67,0
+2024-03-15 14:30:00,user_010,Executive,New York,vpn,0,0,0,1,90,0
+2024-03-15 16:21:00,user_038,Finance,New York,admin_panel,1,0,0,1,6,0
+2024-03-15 18:08:00,user_031,Sales,New York,vpn,1,0,0,0,77,0
+2024-03-15 19:12:00,user_035,HR,Chicago,vpn,1,0,0,1,56,0
+2024-03-15 19:49:00,user_035,HR,New York,payroll,1,0,0,0,27,0
+2024-03-16 00:20:00,user_003,HR,Unknown,database,7,0,0,1,4,1
+2024-03-16 00:38:00,user_024,Engineering,London,payroll,9,1,0,1,30,1
+2024-03-16 09:56:00,user_015,Executive,Chicago,database,1,0,0,1,58,0
+2024-03-16 10:56:00,user_008,Engineering,Chicago,vpn,1,0,0,0,106,0
+2024-03-16 12:08:00,user_024,Finance,New York,admin_panel,0,0,0,0,119,0
+2024-03-16 12:10:00,user_020,IT,Chicago,email,1,0,0,0,13,0
+2024-03-16 13:22:00,user_030,Engineering,Remote,hr_system,1,0,0,1,26,0
+2024-03-16 16:26:00,user_041,Engineering,New York,email,1,0,0,1,55,0
+2024-03-16 16:43:00,user_018,Executive,New York,vpn,1,0,0,0,71,0
+2024-03-16 17:45:00,user_021,Executive,Remote,database,1,0,0,1,119,0
+2024-03-16 18:24:00,user_028,Engineering,Remote,payroll,0,0,0,0,96,0
+2024-03-16 19:34:00,user_001,Executive,Chicago,email,0,0,0,1,78,0
+2024-03-17 02:44:00,user_037,IT,London,payroll,10,1,0,1,8,1
+2024-03-17 09:46:00,user_025,Engineering,Chicago,admin_panel,1,0,0,0,14,0
+2024-03-17 11:00:00,user_003,Sales,New York,database,0,0,0,0,32,0
+2024-03-17 12:31:00,user_017,HR,Chicago,file_share,1,0,0,1,45,0
+2024-03-17 12:38:00,user_003,Engineering,New York,email,0,0,0,0,120,0
+2024-03-17 13:05:00,user_017,IT,New York,email,1,0,0,1,116,0
+2024-03-17 13:24:00,user_039,HR,New York,database,1,0,0,1,8,0
+2024-03-17 15:42:00,user_049,Sales,New York,payroll,1,0,0,0,119,0
+2024-03-17 16:41:00,user_021,Finance,Chicago,payroll,0,0,0,0,98,0
+2024-03-17 19:01:00,user_035,Finance,Remote,vpn,0,0,0,1,91,0
+2024-03-17 19:15:00,user_001,Engineering,Chicago,file_share,0,0,0,0,115,0
+2024-03-17 23:18:00,user_004,Finance,Unknown,database,7,1,1,1,5,1
+2024-03-18 00:02:00,user_013,Engineering,London,database,6,1,1,1,7,1
+2024-03-18 01:28:00,user_005,Sales,Unknown,database,8,0,0,1,21,1
+2024-03-18 01:33:00,user_027,Finance,London,database,7,1,0,1,7,1
+2024-03-18 02:13:00,user_026,Sales,London,database,9,0,0,1,20,1
+2024-03-18 02:43:00,user_015,Executive,London,admin_panel,8,0,0,0,12,1
+2024-03-18 02:48:00,user_033,HR,Unknown,admin_panel,8,0,1,1,11,1
+2024-03-18 03:30:00,user_003,Engineering,Unknown,payroll,8,0,0,1,30,1
+2024-03-18 10:53:00,user_022,Finance,New York,email,1,0,0,1,69,0
+2024-03-18 12:40:00,user_032,Finance,New York,file_share,1,0,0,0,69,0
+2024-03-18 13:56:00,user_049,IT,New York,file_share,1,0,0,1,64,0
+2024-03-18 17:56:00,user_039,Sales,Chicago,payroll,0,0,0,0,71,0
+2024-03-18 17:57:00,user_025,IT,Chicago,database,1,0,0,0,26,0
+2024-03-18 19:36:00,user_005,Executive,New York,vpn,0,0,0,0,36,0
+2024-03-18 23:04:00,user_046,Sales,London,payroll,3,1,1,0,24,1
+2024-03-19 00:31:00,user_019,IT,Unknown,database,4,1,0,0,9,1
+2024-03-19 03:33:00,user_028,Finance,Unknown,admin_panel,9,0,0,1,14,1
+2024-03-19 07:19:00,user_013,Sales,New York,file_share,1,0,0,0,94,0
+2024-03-19 08:44:00,user_001,Sales,New York,admin_panel,0,0,0,0,101,0
+2024-03-19 09:33:00,user_007,Finance,Chicago,email,0,0,0,1,17,0
+2024-03-19 12:35:00,user_011,HR,Remote,vpn,0,0,0,1,58,0
+2024-03-19 12:53:00,user_006,Sales,Remote,hr_system,0,0,0,0,97,0
+2024-03-19 13:37:00,user_037,IT,Chicago,file_share,0,0,0,0,81,0
+2024-03-19 13:57:00,user_026,Sales,Remote,admin_panel,1,0,0,0,52,0
+2024-03-19 14:22:00,user_024,Executive,Chicago,admin_panel,1,0,0,1,75,0
+2024-03-19 14:24:00,user_013,Executive,New York,hr_system,0,0,0,1,106,0
+2024-03-19 15:37:00,user_045,HR,New York,email,1,0,0,0,13,0
+2024-03-19 16:40:00,user_024,Executive,Chicago,file_share,0,0,0,1,96,0
+2024-03-19 17:18:00,user_012,HR,New York,email,1,0,0,1,82,0
+2024-03-19 22:32:00,user_011,Engineering,London,payroll,7,0,0,1,3,1
+2024-03-19 22:46:00,user_041,Finance,London,database,9,1,0,0,3,1
+2024-03-20 07:36:00,user_030,IT,Remote,payroll,1,0,0,0,46,0
+2024-03-20 10:06:00,user_027,Finance,Chicago,hr_system,1,0,0,1,15,0
+2024-03-20 11:05:00,user_045,Executive,Remote,database,0,0,0,0,70,0
+2024-03-20 11:26:00,user_047,Finance,New York,payroll,1,0,0,1,111,0
+2024-03-20 11:38:00,user_008,Executive,Chicago,payroll,0,0,0,1,18,0
+2024-03-20 11:38:00,user_044,Engineering,Chicago,email,1,0,0,0,77,0
+2024-03-20 11:49:00,user_015,IT,Chicago,email,1,0,0,1,16,0
+2024-03-20 15:04:00,user_041,HR,Remote,email,1,0,0,1,62,0
+2024-03-20 16:22:00,user_006,Finance,Remote,database,1,0,0,1,109,0
+2024-03-21 00:20:00,user_012,Sales,Unknown,admin_panel,8,0,0,1,6,1
+2024-03-21 02:27:00,user_014,IT,Unknown,admin_panel,9,0,1,0,18,1
+2024-03-21 10:23:00,user_007,Executive,Chicago,payroll,1,0,0,1,10,0
+2024-03-21 11:18:00,user_032,HR,New York,vpn,1,0,0,1,91,0
+2024-03-21 15:20:00,user_013,Finance,New York,database,0,0,0,1,39,0
+2024-03-21 16:00:00,user_050,IT,Remote,database,1,0,0,0,90,0
+2024-03-21 16:56:00,user_003,Engineering,Chicago,email,0,0,0,0,88,0
+2024-03-21 17:04:00,user_022,Finance,New York,database,1,0,0,0,60,0
+2024-03-21 18:35:00,user_009,Sales,Remote,hr_system,1,0,0,0,30,0
+2024-03-21 18:54:00,user_039,Sales,New York,payroll,1,0,0,0,39,0
+2024-03-21 23:51:00,user_034,IT,London,payroll,6,0,1,1,19,1
+2024-03-22 03:38:00,user_004,Executive,Unknown,database,7,1,0,0,20,1
+2024-03-22 08:02:00,user_046,Executive,New York,vpn,0,0,0,0,61,0
+2024-03-22 09:26:00,user_048,Finance,Remote,admin_panel,0,0,0,1,36,0
+2024-03-22 10:01:00,user_026,Finance,Chicago,email,1,0,0,0,112,0
+2024-03-22 11:43:00,user_019,Finance,Chicago,email,1,0,0,1,55,0
+2024-03-22 12:59:00,user_008,Executive,Remote,email,0,0,0,0,54,0
+2024-03-22 16:01:00,user_028,Engineering,Chicago,email,1,0,0,1,78,0
+2024-03-22 19:08:00,user_034,Sales,Remote,email,1,0,0,0,115,0
+2024-03-23 01:37:00,user_012,IT,Unknown,admin_panel,8,1,1,1,14,1
+2024-03-23 09:26:00,user_002,HR,Chicago,email,1,0,0,1,53,0
+2024-03-23 10:11:00,user_035,Finance,Remote,email,0,0,0,0,25,0
+2024-03-23 11:08:00,user_039,IT,Chicago,admin_panel,1,0,0,1,83,0
+2024-03-23 13:26:00,user_047,Finance,Remote,hr_system,0,0,0,1,8,0
+2024-03-23 14:17:00,user_005,Engineering,New York,admin_panel,0,0,0,1,48,0
+2024-03-23 14:59:00,user_010,Engineering,Chicago,file_share,1,0,0,0,94,0
+2024-03-23 15:20:00,user_003,Finance,New York,payroll,0,0,0,1,101,0
+2024-03-23 16:50:00,user_021,Executive,Chicago,vpn,1,0,0,0,76,0
+2024-03-23 17:41:00,user_043,Sales,New York,payroll,0,0,0,1,101,0
+2024-03-23 18:59:00,user_005,Sales,New York,database,0,0,0,1,9,0
+2024-03-24 00:18:00,user_024,HR,London,database,3,1,1,1,17,1
+2024-03-24 01:13:00,user_007,Engineering,Unknown,payroll,4,0,0,0,21,1
+2024-03-24 07:28:00,user_002,Finance,Chicago,file_share,1,0,0,1,86,0
+2024-03-24 09:38:00,user_003,Engineering,New York,email,1,0,0,1,35,0
+2024-03-24 09:55:00,user_009,Engineering,Chicago,hr_system,1,0,0,0,107,0
+2024-03-24 10:53:00,user_044,Executive,Remote,database,0,0,0,0,16,0
+2024-03-24 13:32:00,user_019,Finance,New York,database,1,0,0,0,56,0
+2024-03-24 14:08:00,user_032,Engineering,Remote,payroll,1,0,0,1,89,0
+2024-03-24 14:14:00,user_017,Executive,Remote,database,0,0,0,1,31,0
+2024-03-24 14:54:00,user_030,Executive,Chicago,file_share,0,0,0,0,67,0
+2024-03-24 16:43:00,user_001,Engineering,New York,file_share,0,0,0,1,88,0
+2024-03-24 17:26:00,user_021,IT,Remote,file_share,1,0,0,1,94,0
+2024-03-24 18:04:00,user_035,HR,New York,admin_panel,0,0,0,1,110,0
+2024-03-24 19:07:00,user_021,Executive,Remote,file_share,0,0,0,0,17,0
+2024-03-24 19:09:00,user_003,Sales,New York,payroll,1,0,0,0,11,0
+2024-03-24 19:55:00,user_040,HR,Chicago,vpn,1,0,0,1,67,0
+2024-03-24 23:04:00,user_043,HR,Unknown,payroll,6,1,0,1,24,1
+2024-03-24 23:41:00,user_005,Finance,London,database,8,0,0,1,15,1
+2024-03-25 00:55:00,user_015,Executive,Unknown,admin_panel,4,1,1,0,18,1
+2024-03-25 01:12:00,user_001,HR,London,database,3,0,0,1,16,1
+2024-03-25 08:57:00,user_005,Executive,Chicago,payroll,0,0,0,0,10,0
+2024-03-25 13:50:00,user_022,Finance,Chicago,vpn,1,0,0,1,38,0
+2024-03-25 17:21:00,user_035,IT,Chicago,vpn,0,0,0,1,42,0
+2024-03-25 17:22:00,user_041,Engineering,Remote,vpn,1,0,0,1,80,0
+2024-03-25 18:07:00,user_050,Finance,New York,email,1,0,0,0,17,0
+2024-03-25 18:28:00,user_046,Finance,Chicago,file_share,1,0,0,1,94,0
+2024-03-26 08:49:00,user_039,Executive,New York,payroll,1,0,0,1,103,0
+2024-03-26 10:33:00,user_008,Sales,Chicago,vpn,0,0,0,0,39,0
+2024-03-26 10:52:00,user_021,Sales,New York,file_share,1,0,0,1,40,0
+2024-03-26 10:55:00,user_049,Executive,Remote,vpn,1,0,0,1,6,0
+2024-03-26 11:16:00,user_035,HR,Remote,database,0,0,0,0,110,0
+2024-03-26 11:45:00,user_032,Engineering,New York,payroll,1,0,0,1,19,0
+2024-03-26 11:49:00,user_039,IT,Chicago,email,0,0,0,1,118,0
+2024-03-26 11:49:00,user_007,Finance,New York,hr_system,0,0,0,1,79,0
+2024-03-26 13:12:00,user_018,Sales,Chicago,file_share,0,0,0,0,117,0
+2024-03-26 15:57:00,user_003,Engineering,New York,hr_system,1,0,0,1,105,0
+2024-03-26 18:24:00,user_013,Engineering,Chicago,email,1,0,0,1,107,0
+2024-03-26 19:37:00,user_005,Executive,Remote,hr_system,0,0,0,0,10,0
+2024-03-27 09:34:00,user_026,IT,Remote,hr_system,1,0,0,1,27,0
+2024-03-27 10:13:00,user_035,HR,Remote,admin_panel,0,0,0,0,89,0
+2024-03-27 11:27:00,user_032,IT,Remote,hr_system,1,0,0,1,103,0
+2024-03-27 12:50:00,user_040,IT,New York,email,1,0,0,1,101,0
+2024-03-27 13:05:00,user_015,Finance,New York,vpn,1,0,0,1,88,0
+2024-03-27 14:04:00,user_042,HR,Chicago,hr_system,0,0,0,1,86,0
+2024-03-27 14:26:00,user_049,Executive,New York,hr_system,1,0,0,1,105,0
+2024-03-27 14:30:00,user_014,IT,Chicago,database,1,0,0,1,48,0
+2024-03-27 16:06:00,user_034,IT,Chicago,hr_system,1,0,0,1,46,0
+2024-03-27 17:01:00,user_034,Executive,New York,payroll,1,0,0,0,68,0
+2024-03-27 17:17:00,user_041,Executive,Chicago,admin_panel,0,0,0,0,9,0
+2024-03-27 18:14:00,user_029,HR,New York,file_share,1,0,0,0,44,0
+2024-03-27 19:18:00,user_033,Finance,Chicago,payroll,1,0,0,0,64,0
+2024-03-27 22:28:00,user_023,IT,London,database,7,0,0,0,25,1
+2024-03-28 09:04:00,user_043,IT,Remote,hr_system,1,0,0,1,10,0
+2024-03-28 09:12:00,user_044,HR,Chicago,email,0,0,0,1,77,0
+2024-03-28 10:05:00,user_038,HR,Remote,database,1,0,0,0,83,0
+2024-03-28 11:09:00,user_040,Finance,New York,email,1,0,0,1,55,0
+2024-03-28 12:12:00,user_028,IT,Chicago,email,1,0,0,1,12,0
+2024-03-28 12:19:00,user_027,IT,New York,payroll,0,0,0,1,105,0
+2024-03-28 12:52:00,user_023,Sales,Chicago,hr_system,0,0,0,0,19,0
+2024-03-28 16:03:00,user_031,Executive,Remote,email,1,0,0,0,65,0
+2024-03-28 17:23:00,user_013,Engineering,New York,payroll,0,0,0,1,48,0
+2024-03-28 18:14:00,user_022,Sales,New York,admin_panel,0,0,0,1,18,0
+2024-03-29 02:13:00,user_003,Sales,London,payroll,4,1,0,0,6,1
+2024-03-29 02:20:00,user_002,IT,London,payroll,7,0,0,1,20,1
+2024-03-29 08:28:00,user_001,Engineering,Chicago,hr_system,0,0,0,1,86,0
+2024-03-29 08:42:00,user_014,Sales,Remote,admin_panel,0,0,0,1,35,0
+2024-03-29 09:55:00,user_015,IT,New York,database,1,0,0,1,62,0
+2024-03-29 10:29:00,user_047,Sales,Chicago,payroll,0,0,0,0,40,0
+2024-03-29 12:29:00,user_048,Engineering,New York,database,1,0,0,1,23,0
+2024-03-29 16:16:00,user_025,Executive,New York,hr_system,1,0,0,1,66,0
+2024-03-29 17:20:00,user_017,Finance,Remote,hr_system,0,0,0,0,52,0
+2024-03-29 18:05:00,user_026,Finance,Chicago,email,1,0,0,1,88,0
+2024-03-29 18:14:00,user_008,HR,New York,vpn,1,0,0,1,113,0
+2024-03-29 18:34:00,user_001,Executive,New York,hr_system,1,0,0,0,99,0
+2024-03-30 01:18:00,user_002,IT,London,database,10,0,1,1,27,1
+2024-03-30 08:30:00,user_012,Engineering,Remote,payroll,1,0,0,1,47,0
+2024-03-30 10:36:00,user_008,HR,Remote,admin_panel,1,0,0,1,93,0
+2024-03-30 14:16:00,user_007,Executive,New York,file_share,0,0,0,0,61,0
+2024-03-30 14:31:00,user_010,IT,Chicago,payroll,1,0,0,1,89,0
+2024-03-30 14:35:00,user_028,Sales,Remote,admin_panel,0,0,0,0,52,0
+2024-03-30 15:48:00,user_043,IT,Remote,file_share,0,0,0,0,82,0
+2024-03-30 17:55:00,user_025,Executive,Remote,payroll,0,0,0,0,27,0
+2024-03-30 19:17:00,user_043,HR,Chicago,payroll,0,0,0,1,91,0
+2024-03-30 23:24:00,user_011,Engineering,London,payroll,7,0,1,1,2,1
+2024-03-31 07:26:00,user_020,Engineering,Chicago,email,1,0,0,0,63,0
+2024-03-31 07:44:00,user_035,Finance,New York,database,0,0,0,1,64,0
+2024-03-31 07:46:00,user_046,Executive,Chicago,file_share,1,0,0,1,40,0
+2024-03-31 10:24:00,user_034,Engineering,Remote,vpn,0,0,0,0,116,0
+2024-03-31 12:46:00,user_031,HR,Chicago,vpn,1,0,0,1,62,0
+2024-03-31 14:00:00,user_027,Sales,Remote,email,1,0,0,1,101,0
+2024-03-31 14:10:00,user_049,Executive,Remote,hr_system,1,0,0,0,22,0
+2024-03-31 14:20:00,user_006,Executive,Chicago,email,0,0,0,0,119,0
+2024-03-31 14:59:00,user_013,IT,Chicago,vpn,0,0,0,0,108,0
+2024-03-31 17:33:00,user_049,Sales,Remote,admin_panel,1,0,0,1,101,0
+2024-03-31 19:18:00,user_044,Finance,Remote,database,0,0,0,1,91,0
+2024-04-01 07:06:00,user_010,Engineering,Remote,payroll,0,0,0,1,27,0
+2024-04-01 10:08:00,user_032,Sales,New York,hr_system,1,0,0,1,35,0
+2024-04-01 12:59:00,user_001,IT,Chicago,payroll,0,0,0,0,100,0
+2024-04-01 13:45:00,user_035,Finance,Chicago,payroll,1,0,0,0,116,0
+2024-04-01 18:08:00,user_017,IT,New York,file_share,1,0,0,0,11,0
+2024-04-02 00:30:00,user_005,Sales,Unknown,admin_panel,10,0,1,1,18,1
+2024-04-02 07:40:00,user_027,IT,Remote,payroll,1,0,0,0,108,0
+2024-04-02 07:42:00,user_012,Finance,Chicago,email,1,0,0,1,53,0
+2024-04-02 08:27:00,user_033,IT,Chicago,payroll,1,0,0,1,95,0
+2024-04-02 08:41:00,user_045,Executive,Chicago,vpn,1,0,0,1,15,0
+2024-04-02 10:31:00,user_006,Executive,Chicago,payroll,0,0,0,0,40,0
+2024-04-02 10:51:00,user_018,Sales,Chicago,vpn,1,0,0,0,63,0
+2024-04-02 11:16:00,user_016,HR,Chicago,admin_panel,1,0,0,1,64,0
+2024-04-02 12:16:00,user_030,Finance,Chicago,admin_panel,1,0,0,1,66,0
+2024-04-02 12:37:00,user_044,Executive,Chicago,email,0,0,0,0,77,0
+2024-04-02 14:02:00,user_004,Engineering,Remote,vpn,0,0,0,0,94,0
+2024-04-02 15:02:00,user_031,Sales,Remote,payroll,1,0,0,0,18,0
+2024-04-02 17:02:00,user_039,Executive,New York,database,0,0,0,0,88,0
+2024-04-02 18:37:00,user_045,Sales,Remote,vpn,1,0,0,0,16,0
+2024-04-02 23:58:00,user_026,HR,Unknown,payroll,10,1,0,1,19,1
+2024-04-03 07:24:00,user_038,Sales,Remote,payroll,0,0,0,0,102,0
+2024-04-03 07:39:00,user_001,Sales,Chicago,hr_system,0,0,0,0,46,0
+2024-04-03 09:14:00,user_020,Executive,New York,payroll,0,0,0,1,62,0
+2024-04-03 09:41:00,user_019,Sales,Chicago,hr_system,0,0,0,1,109,0
+2024-04-03 15:12:00,user_041,Sales,Chicago,database,0,0,0,1,23,0
+2024-04-03 17:24:00,user_048,Sales,Remote,vpn,1,0,0,0,71,0
+2024-04-03 18:12:00,user_032,Executive,New York,payroll,0,0,0,0,56,0
+2024-04-03 18:54:00,user_010,Engineering,New York,email,0,0,0,1,97,0
+2024-04-03 19:35:00,user_005,Finance,Remote,hr_system,1,0,0,0,106,0
+2024-04-03 22:19:00,user_011,HR,Unknown,admin_panel,4,0,1,0,8,1
+2024-04-04 07:44:00,user_027,Engineering,Remote,admin_panel,1,0,0,0,61,0
+2024-04-04 08:07:00,user_048,Sales,Chicago,email,1,0,0,1,10,0
+2024-04-04 08:17:00,user_015,Sales,Remote,hr_system,0,0,0,1,93,0
+2024-04-04 08:56:00,user_002,Executive,Remote,file_share,1,0,0,0,27,0
+2024-04-04 12:30:00,user_035,Executive,New York,file_share,0,0,0,1,7,0
+2024-04-04 14:03:00,user_019,HR,Remote,database,0,0,0,0,26,0
+2024-04-04 15:26:00,user_039,IT,Remote,hr_system,1,0,0,0,94,0
+2024-04-04 16:37:00,user_047,Sales,New York,vpn,0,0,0,1,53,0
+2024-04-04 19:27:00,user_025,Sales,Remote,admin_panel,0,0,0,0,60,0
+2024-04-05 00:42:00,user_003,Finance,Unknown,payroll,8,0,0,1,28,1
+2024-04-05 09:22:00,user_030,Engineering,Chicago,hr_system,1,0,0,1,115,0
+2024-04-05 10:30:00,user_020,HR,New York,payroll,1,0,0,1,103,0
+2024-04-05 10:43:00,user_029,Engineering,New York,payroll,0,0,0,0,101,0
+2024-04-05 11:22:00,user_011,IT,New York,file_share,0,0,0,1,23,0
+2024-04-05 11:35:00,user_014,IT,Remote,hr_system,1,0,0,1,25,0
+2024-04-05 11:46:00,user_037,Executive,Chicago,admin_panel,0,0,0,1,66,0
+2024-04-05 11:53:00,user_050,Executive,New York,vpn,1,0,0,0,46,0
+2024-04-05 15:33:00,user_043,HR,Chicago,payroll,1,0,0,0,10,0
+2024-04-05 18:38:00,user_040,Finance,Chicago,vpn,1,0,0,1,94,0
+2024-04-05 19:09:00,user_037,IT,Remote,database,0,0,0,0,105,0
+2024-04-05 19:39:00,user_042,HR,Remote,hr_system,0,0,0,1,65,0
+2024-04-06 00:17:00,user_042,Engineering,London,admin_panel,6,0,0,0,26,1
+2024-04-06 07:21:00,user_044,HR,New York,vpn,1,0,0,0,78,0
+2024-04-06 11:58:00,user_009,Sales,Chicago,vpn,0,0,0,1,92,0
+2024-04-06 13:57:00,user_017,HR,Remote,hr_system,1,0,0,1,63,0
+2024-04-06 19:36:00,user_024,HR,Chicago,payroll,0,0,0,0,75,0
+2024-04-06 19:42:00,user_035,Executive,New York,file_share,0,0,0,1,18,0
+2024-04-06 19:47:00,user_040,Engineering,Remote,payroll,1,0,0,0,56,0
+2024-04-07 03:01:00,user_030,Sales,London,payroll,9,0,1,1,6,1
+2024-04-07 07:59:00,user_046,Finance,Remote,hr_system,0,0,0,0,120,0
+2024-04-07 08:26:00,user_008,Engineering,Remote,database,1,0,0,0,24,0
+2024-04-07 09:30:00,user_024,Engineering,Remote,vpn,1,0,0,0,90,0
+2024-04-07 09:56:00,user_043,Engineering,New York,payroll,0,0,0,1,53,0
+2024-04-07 10:11:00,user_012,Executive,Remote,payroll,0,0,0,1,75,0
+2024-04-07 11:52:00,user_050,Sales,Chicago,vpn,0,0,0,0,20,0
+2024-04-07 12:56:00,user_043,Executive,Remote,admin_panel,0,0,0,1,28,0
+2024-04-07 12:57:00,user_050,Executive,Remote,hr_system,1,0,0,1,116,0
+2024-04-07 13:28:00,user_004,Executive,New York,email,0,0,0,0,75,0
+2024-04-07 13:31:00,user_005,Finance,Remote,file_share,0,0,0,0,52,0
+2024-04-07 14:40:00,user_042,IT,Chicago,admin_panel,0,0,0,0,81,0
+2024-04-07 16:48:00,user_006,Engineering,Chicago,vpn,1,0,0,0,74,0
+2024-04-07 18:30:00,user_016,Finance,Chicago,email,1,0,0,1,89,0
+2024-04-07 19:33:00,user_008,Engineering,Remote,database,0,0,0,1,61,0
+2024-04-08 00:07:00,user_044,HR,Unknown,payroll,8,1,0,1,6,1
+2024-04-08 00:16:00,user_043,Finance,London,database,6,1,0,1,19,1
+2024-04-08 08:14:00,user_022,Engineering,Remote,vpn,1,0,0,0,98,0
+2024-04-08 08:33:00,user_047,IT,Remote,admin_panel,1,0,0,0,53,0
+2024-04-08 10:24:00,user_047,Engineering,Remote,database,0,0,0,0,18,0
+2024-04-08 11:01:00,user_011,HR,Remote,payroll,0,0,0,0,25,0
+2024-04-08 15:47:00,user_035,Sales,Remote,hr_system,1,0,0,1,80,0
+2024-04-08 16:04:00,user_004,Finance,Remote,vpn,1,0,0,1,81,0
+2024-04-08 18:13:00,user_025,Engineering,New York,admin_panel,0,0,0,0,39,0
+2024-04-08 18:44:00,user_040,IT,Chicago,admin_panel,0,0,0,1,56,0
+2024-04-08 18:57:00,user_009,HR,Remote,vpn,0,0,0,0,106,0
+2024-04-09 00:40:00,user_024,Sales,Unknown,database,10,0,1,1,26,1
+2024-04-09 08:36:00,user_027,Finance,New York,file_share,1,0,0,0,79,0
+2024-04-09 08:41:00,user_050,IT,New York,file_share,0,0,0,1,34,0
+2024-04-09 09:54:00,user_033,Engineering,Remote,hr_system,1,0,0,1,65,0
+2024-04-09 10:02:00,user_034,Engineering,Chicago,email,0,0,0,0,15,0
+2024-04-09 10:59:00,user_038,Executive,Remote,file_share,0,0,0,1,27,0
+2024-04-09 14:27:00,user_004,Executive,Chicago,database,0,0,0,1,20,0
+2024-04-09 19:16:00,user_011,HR,New York,email,0,0,0,0,109,0
+2024-04-10 07:35:00,user_032,HR,Remote,payroll,0,0,0,1,59,0
+2024-04-10 08:01:00,user_043,Finance,Remote,vpn,0,0,0,1,24,0
+2024-04-10 08:05:00,user_024,Executive,New York,vpn,1,0,0,0,41,0
+2024-04-10 09:47:00,user_026,IT,Chicago,vpn,0,0,0,1,86,0
+2024-04-10 10:10:00,user_008,Executive,Chicago,hr_system,1,0,0,1,36,0
+2024-04-10 11:50:00,user_049,Sales,New York,vpn,1,0,0,0,21,0
+2024-04-10 13:13:00,user_022,Sales,Remote,database,1,0,0,0,73,0
+2024-04-10 15:03:00,user_036,Sales,Chicago,admin_panel,0,0,0,1,68,0
+2024-04-10 17:26:00,user_031,Finance,Chicago,payroll,0,0,0,0,36,0
+2024-04-10 18:37:00,user_001,Sales,Remote,vpn,0,0,0,0,111,0
+2024-04-11 00:14:00,user_028,Executive,London,payroll,7,0,1,1,7,1
+2024-04-11 07:53:00,user_048,IT,New York,admin_panel,0,0,0,1,28,0
+2024-04-11 08:19:00,user_036,Engineering,Remote,vpn,0,0,0,1,72,0
+2024-04-11 08:23:00,user_029,Finance,Chicago,payroll,1,0,0,1,26,0
+2024-04-11 10:04:00,user_002,Engineering,New York,hr_system,0,0,0,1,8,0
+2024-04-11 10:14:00,user_034,Sales,Chicago,email,1,0,0,1,48,0
+2024-04-11 11:05:00,user_044,Engineering,Remote,vpn,1,0,0,0,69,0
+2024-04-11 11:50:00,user_041,IT,Chicago,payroll,0,0,0,1,67,0
+2024-04-11 12:24:00,user_002,Finance,New York,database,0,0,0,0,109,0
+2024-04-11 12:36:00,user_042,Finance,New York,database,0,0,0,1,101,0
+2024-04-11 12:42:00,user_001,IT,Chicago,payroll,1,0,0,1,80,0
+2024-04-11 12:44:00,user_044,IT,New York,admin_panel,0,0,0,0,96,0
+2024-04-11 14:28:00,user_035,Sales,Remote,file_share,1,0,0,0,97,0
+2024-04-11 15:04:00,user_003,Executive,Remote,hr_system,0,0,0,1,65,0
+2024-04-11 16:33:00,user_001,Sales,New York,email,1,0,0,1,96,0
+2024-04-11 16:38:00,user_016,HR,Remote,payroll,0,0,0,0,87,0
+2024-04-11 17:20:00,user_021,Engineering,Remote,email,1,0,0,0,46,0
+2024-04-11 18:06:00,user_030,Engineering,New York,email,0,0,0,1,30,0
+2024-04-12 01:22:00,user_015,Finance,London,database,5,1,0,1,1,1
+2024-04-12 02:05:00,user_022,Sales,Unknown,payroll,9,0,0,1,5,1
+2024-04-12 03:28:00,user_025,Executive,Unknown,database,3,1,0,0,3,1
+2024-04-12 10:55:00,user_049,Finance,Chicago,admin_panel,1,0,0,0,26,0
+2024-04-12 11:31:00,user_020,Finance,New York,vpn,1,0,0,1,96,0
+2024-04-12 11:42:00,user_021,Finance,Chicago,admin_panel,1,0,0,0,63,0
+2024-04-12 12:02:00,user_009,Executive,Chicago,payroll,1,0,0,0,77,0
+2024-04-12 12:42:00,user_047,Engineering,Chicago,file_share,1,0,0,0,97,0
+2024-04-12 12:42:00,user_024,HR,Chicago,payroll,0,0,0,1,83,0
+2024-04-12 12:54:00,user_012,Finance,Chicago,hr_system,1,0,0,1,62,0
+2024-04-12 13:47:00,user_010,Executive,Remote,database,1,0,0,1,77,0
+2024-04-12 18:19:00,user_034,Engineering,New York,database,0,0,0,1,61,0
+2024-04-12 18:24:00,user_005,HR,New York,database,0,0,0,1,96,0
+2024-04-12 19:26:00,user_017,Engineering,New York,email,1,0,0,0,50,0
+2024-04-12 19:48:00,user_032,Executive,Remote,vpn,1,0,0,1,21,0
+2024-04-12 22:26:00,user_042,Finance,London,database,3,0,0,0,25,1
+2024-04-13 00:19:00,user_031,Sales,London,database,3,0,1,1,28,1
+2024-04-13 01:40:00,user_004,Sales,London,payroll,9,1,1,1,10,1
+2024-04-13 01:53:00,user_037,IT,Unknown,database,7,1,0,1,21,1
+2024-04-13 02:08:00,user_016,Finance,London,admin_panel,7,0,0,1,8,1
+2024-04-13 14:27:00,user_010,Engineering,Remote,email,1,0,0,0,74,0
+2024-04-13 14:46:00,user_002,HR,Chicago,database,1,0,0,0,80,0
+2024-04-13 16:32:00,user_046,HR,New York,database,0,0,0,0,114,0
+2024-04-13 19:27:00,user_050,Finance,Chicago,payroll,0,0,0,0,57,0
+2024-04-13 19:30:00,user_046,HR,New York,database,0,0,0,0,90,0
+2024-04-14 07:16:00,user_008,Engineering,Remote,vpn,1,0,0,1,68,0
+2024-04-14 08:00:00,user_020,Sales,Chicago,email,1,0,0,1,58,0
+2024-04-14 09:00:00,user_038,Finance,Remote,database,0,0,0,0,34,0
+2024-04-14 11:00:00,user_033,Sales,Chicago,vpn,1,0,0,0,7,0
+2024-04-14 11:11:00,user_018,Finance,Chicago,admin_panel,0,0,0,0,76,0
+2024-04-14 12:01:00,user_038,Sales,Chicago,email,1,0,0,0,65,0
+2024-04-14 13:58:00,user_049,Engineering,New York,vpn,1,0,0,1,114,0
+2024-04-14 15:14:00,user_007,HR,Chicago,admin_panel,0,0,0,0,102,0
+2024-04-14 18:04:00,user_030,Finance,Chicago,payroll,1,0,0,1,22,0
+2024-04-14 18:26:00,user_023,Executive,Chicago,payroll,1,0,0,0,43,0
+2024-04-14 18:56:00,user_021,IT,Remote,vpn,1,0,0,1,15,0
+2024-04-14 19:30:00,user_009,Sales,Remote,admin_panel,0,0,0,0,17,0
+2024-04-15 01:29:00,user_005,Finance,Unknown,database,3,0,0,1,18,1
+2024-04-15 07:22:00,user_016,HR,Chicago,hr_system,0,0,0,1,40,0
+2024-04-15 07:48:00,user_017,Executive,Chicago,vpn,0,0,0,0,23,0
+2024-04-15 07:51:00,user_008,Sales,New York,email,0,0,0,0,17,0
+2024-04-15 08:25:00,user_032,IT,Chicago,hr_system,0,0,0,0,76,0
+2024-04-15 08:42:00,user_005,Engineering,Chicago,hr_system,0,0,0,1,51,0
+2024-04-15 12:01:00,user_048,HR,Chicago,database,1,0,0,0,49,0
+2024-04-15 12:20:00,user_007,Engineering,New York,vpn,0,0,0,1,89,0
+2024-04-15 12:21:00,user_035,Executive,New York,file_share,0,0,0,0,75,0
+2024-04-15 13:31:00,user_018,Executive,Remote,database,1,0,0,0,46,0
+2024-04-15 22:43:00,user_037,Finance,Unknown,payroll,5,0,0,1,24,1
+2024-04-16 00:06:00,user_023,IT,London,database,4,0,1,1,22,1
+2024-04-16 02:39:00,user_049,Sales,Unknown,payroll,7,0,0,1,17,1
+2024-04-16 02:47:00,user_029,HR,Unknown,admin_panel,7,1,1,1,17,1
+2024-04-16 07:05:00,user_048,Finance,New York,payroll,1,0,0,1,45,0
+2024-04-16 08:17:00,user_030,Engineering,New York,database,0,0,0,1,105,0
+2024-04-16 08:17:00,user_004,Executive,New York,admin_panel,1,0,0,0,43,0
+2024-04-16 08:50:00,user_031,Finance,New York,database,1,0,0,1,43,0
+2024-04-16 09:10:00,user_046,HR,New York,payroll,0,0,0,0,73,0
+2024-04-16 11:08:00,user_028,HR,Remote,vpn,0,0,0,0,43,0
+2024-04-16 11:25:00,user_009,Engineering,New York,email,0,0,0,1,17,0
+2024-04-16 11:46:00,user_015,Executive,Chicago,payroll,1,0,0,0,29,0
+2024-04-16 12:35:00,user_014,IT,Chicago,payroll,0,0,0,1,106,0
+2024-04-16 12:49:00,user_012,IT,New York,database,0,0,0,0,75,0
+2024-04-16 13:24:00,user_033,Executive,Chicago,hr_system,0,0,0,1,75,0
+2024-04-16 14:25:00,user_010,IT,New York,payroll,1,0,0,1,100,0
+2024-04-16 15:29:00,user_010,IT,Chicago,admin_panel,1,0,0,0,31,0
+2024-04-16 17:31:00,user_025,Sales,Remote,admin_panel,1,0,0,1,67,0
+2024-04-16 18:40:00,user_030,HR,Remote,admin_panel,1,0,0,1,19,0
+2024-04-16 22:27:00,user_030,Sales,Unknown,payroll,8,0,1,1,8,1
+2024-04-17 01:05:00,user_024,Executive,Unknown,payroll,5,0,1,1,23,1
+2024-04-17 07:16:00,user_012,HR,Chicago,admin_panel,1,0,0,0,25,0
+2024-04-17 09:07:00,user_032,Finance,New York,admin_panel,0,0,0,1,102,0
+2024-04-17 09:34:00,user_021,Engineering,Chicago,vpn,0,0,0,1,100,0
+2024-04-17 10:25:00,user_035,Engineering,New York,payroll,1,0,0,1,63,0
+2024-04-17 10:43:00,user_032,Engineering,New York,admin_panel,0,0,0,1,118,0
+2024-04-17 15:01:00,user_023,Engineering,Chicago,admin_panel,0,0,0,0,101,0
+2024-04-17 15:24:00,user_008,IT,New York,file_share,0,0,0,0,78,0
+2024-04-17 15:36:00,user_005,HR,Chicago,admin_panel,1,0,0,0,39,0
+2024-04-17 16:05:00,user_008,Sales,New York,database,0,0,0,1,38,0
+2024-04-17 16:19:00,user_045,Sales,Remote,file_share,1,0,0,1,25,0
+2024-04-17 23:53:00,user_025,HR,Unknown,payroll,5,1,0,1,5,1
+2024-04-18 09:45:00,user_021,Finance,Chicago,admin_panel,0,0,0,1,15,0
+2024-04-18 14:07:00,user_008,Executive,New York,email,1,0,0,1,89,0
+2024-04-18 15:52:00,user_003,Executive,Chicago,vpn,1,0,0,1,9,0
+2024-04-18 16:42:00,user_033,Executive,Remote,file_share,0,0,0,0,64,0
+2024-04-18 17:42:00,user_025,HR,New York,hr_system,0,0,0,1,7,0
+2024-04-18 19:37:00,user_038,Executive,New York,file_share,0,0,0,0,50,0
+2024-04-18 23:48:00,user_022,Finance,Unknown,admin_panel,7,1,0,1,22,1
+2024-04-19 08:57:00,user_027,Executive,Chicago,vpn,0,0,0,1,101,0
+2024-04-19 09:45:00,user_039,IT,Remote,file_share,1,0,0,1,54,0
+2024-04-19 12:34:00,user_044,IT,Remote,payroll,0,0,0,1,13,0
+2024-04-19 13:06:00,user_024,Executive,Remote,email,1,0,0,1,50,0
+2024-04-19 15:25:00,user_021,Executive,New York,database,0,0,0,0,34,0
+2024-04-19 15:45:00,user_009,HR,New York,hr_system,1,0,0,0,19,0
+2024-04-19 17:30:00,user_005,HR,Chicago,vpn,0,0,0,1,7,0
+2024-04-19 17:43:00,user_020,Sales,Remote,hr_system,0,0,0,1,11,0
+2024-04-19 18:42:00,user_007,Sales,Chicago,hr_system,1,0,0,0,26,0
+2024-04-20 07:31:00,user_050,HR,Chicago,file_share,0,0,0,0,21,0
+2024-04-20 07:53:00,user_036,Engineering,Remote,email,0,0,0,0,93,0
+2024-04-20 09:04:00,user_021,Sales,Chicago,admin_panel,0,0,0,1,17,0
+2024-04-20 18:31:00,user_007,Sales,Chicago,vpn,0,0,0,1,59,0
+2024-04-20 19:02:00,user_033,HR,Remote,database,0,0,0,0,54,0
+2024-04-20 19:08:00,user_034,Sales,Remote,database,0,0,0,0,111,0
+2024-04-20 19:48:00,user_049,IT,Chicago,payroll,1,0,0,0,108,0
+2024-04-21 03:50:00,user_020,Sales,London,payroll,5,1,0,1,15,1
+2024-04-21 07:06:00,user_049,Executive,Remote,email,1,0,0,0,112,0
+2024-04-21 07:21:00,user_035,Engineering,Remote,email,1,0,0,0,58,0
+2024-04-21 15:10:00,user_041,Executive,New York,admin_panel,1,0,0,0,17,0
+2024-04-21 17:44:00,user_045,Sales,New York,admin_panel,1,0,0,1,78,0
+2024-04-21 18:09:00,user_006,Finance,New York,hr_system,1,0,0,1,67,0
+2024-04-21 18:10:00,user_017,Executive,Chicago,vpn,0,0,0,0,16,0
+2024-04-21 18:33:00,user_006,Finance,Remote,email,0,0,0,1,110,0
+2024-04-21 18:46:00,user_038,Engineering,New York,admin_panel,0,0,0,1,23,0
+2024-04-21 23:53:00,user_003,HR,London,database,10,1,0,1,6,1
+2024-04-22 02:42:00,user_033,Sales,Unknown,admin_panel,9,0,0,1,25,1
+2024-04-22 07:08:00,user_028,Finance,New York,payroll,1,0,0,0,111,0
+2024-04-22 07:55:00,user_012,HR,Remote,hr_system,1,0,0,0,112,0
+2024-04-22 08:55:00,user_042,Engineering,New York,vpn,1,0,0,0,72,0
+2024-04-22 09:12:00,user_009,Finance,Remote,hr_system,0,0,0,0,9,0
+2024-04-22 14:22:00,user_045,Finance,Chicago,hr_system,0,0,0,0,69,0
+2024-04-22 14:45:00,user_045,Executive,New York,file_share,0,0,0,1,74,0
+2024-04-22 15:05:00,user_010,Sales,Chicago,database,0,0,0,0,46,0
+2024-04-22 15:10:00,user_005,Finance,Chicago,vpn,1,0,0,0,79,0
+2024-04-22 16:11:00,user_029,Sales,Chicago,email,0,0,0,0,25,0
+2024-04-22 18:03:00,user_003,Sales,Chicago,vpn,0,0,0,1,112,0
+2024-04-22 19:57:00,user_032,Sales,Remote,payroll,1,0,0,0,7,0
+2024-04-22 19:58:00,user_013,Finance,Remote,admin_panel,0,0,0,1,112,0
+2024-04-23 01:45:00,user_025,Finance,Unknown,database,10,0,0,1,6,1
+2024-04-23 09:52:00,user_009,Engineering,Chicago,file_share,1,0,0,1,27,0
+2024-04-23 11:56:00,user_021,HR,Remote,file_share,1,0,0,1,100,0
+2024-04-23 12:22:00,user_025,Sales,New York,file_share,1,0,0,0,64,0
+2024-04-23 12:23:00,user_025,IT,Remote,vpn,1,0,0,0,78,0
+2024-04-23 12:31:00,user_028,IT,Chicago,file_share,1,0,0,1,73,0
+2024-04-23 15:38:00,user_012,Sales,Chicago,hr_system,0,0,0,1,120,0
+2024-04-23 17:53:00,user_021,Engineering,Chicago,admin_panel,1,0,0,0,75,0
+2024-04-24 07:35:00,user_040,Sales,Chicago,email,0,0,0,0,119,0
+2024-04-24 07:45:00,user_032,Sales,Chicago,admin_panel,0,0,0,0,97,0
+2024-04-24 08:13:00,user_026,Sales,Remote,email,1,0,0,1,116,0
+2024-04-24 08:48:00,user_037,Sales,Remote,database,0,0,0,0,26,0
+2024-04-24 14:27:00,user_002,HR,Chicago,admin_panel,0,0,0,1,16,0
+2024-04-24 16:14:00,user_023,IT,Chicago,hr_system,1,0,0,1,34,0
+2024-04-24 16:57:00,user_010,HR,New York,file_share,1,0,0,1,48,0
+2024-04-24 19:36:00,user_042,Finance,New York,admin_panel,1,0,0,0,114,0
+2024-04-25 00:44:00,user_048,HR,Unknown,admin_panel,8,1,0,0,7,1
+2024-04-25 08:17:00,user_028,Sales,Chicago,file_share,0,0,0,0,101,0
+2024-04-25 15:06:00,user_021,Executive,Remote,database,0,0,0,1,110,0
+2024-04-25 16:14:00,user_027,Sales,Remote,vpn,1,0,0,1,43,0
+2024-04-25 17:04:00,user_027,Sales,New York,vpn,1,0,0,1,92,0
+2024-04-25 17:09:00,user_009,Executive,New York,payroll,0,0,0,1,54,0
+2024-04-25 18:44:00,user_014,HR,Chicago,email,1,0,0,1,13,0
+2024-04-25 19:07:00,user_026,HR,Remote,vpn,0,0,0,1,71,0
+2024-04-25 19:48:00,user_050,IT,Chicago,payroll,1,0,0,1,40,0
+2024-04-26 13:07:00,user_045,Finance,New York,vpn,0,0,0,0,44,0
+2024-04-26 13:17:00,user_015,IT,New York,payroll,0,0,0,1,25,0
+2024-04-26 13:26:00,user_010,IT,New York,hr_system,0,0,0,1,25,0
+2024-04-26 14:13:00,user_001,Engineering,Chicago,vpn,1,0,0,1,74,0
+2024-04-26 15:08:00,user_002,HR,Remote,admin_panel,1,0,0,1,19,0
+2024-04-26 16:51:00,user_042,Finance,Chicago,file_share,1,0,0,0,18,0
+2024-04-26 17:48:00,user_047,Finance,New York,vpn,1,0,0,0,7,0
+2024-04-26 18:13:00,user_009,Engineering,New York,hr_system,0,0,0,1,9,0
+2024-04-26 19:32:00,user_001,Finance,Remote,hr_system,0,0,0,1,43,0
+2024-04-26 23:42:00,user_036,IT,London,payroll,6,0,0,1,8,1
+2024-04-27 00:02:00,user_021,Executive,London,payroll,5,1,1,1,19,1
+2024-04-27 01:29:00,user_020,Executive,London,admin_panel,8,1,0,1,28,1
+2024-04-27 01:37:00,user_020,HR,London,database,5,1,0,1,19,1
+2024-04-27 07:09:00,user_043,Executive,Remote,payroll,1,0,0,0,68,0
+2024-04-27 07:18:00,user_041,IT,New York,admin_panel,0,0,0,1,91,0
+2024-04-27 09:02:00,user_011,IT,Chicago,payroll,1,0,0,1,95,0
+2024-04-27 09:45:00,user_042,IT,Chicago,hr_system,1,0,0,0,63,0
+2024-04-27 10:01:00,user_037,Finance,Chicago,email,0,0,0,0,39,0
+2024-04-27 11:17:00,user_039,HR,Chicago,database,0,0,0,0,17,0
+2024-04-27 12:08:00,user_028,Sales,Chicago,vpn,1,0,0,0,85,0
+2024-04-27 17:07:00,user_040,Sales,Chicago,vpn,1,0,0,1,119,0
+2024-04-27 17:16:00,user_044,Sales,New York,vpn,1,0,0,1,90,0
+2024-04-27 18:49:00,user_018,HR,New York,email,0,0,0,1,65,0
+2024-04-27 19:02:00,user_006,HR,Chicago,database,1,0,0,0,53,0
+2024-04-27 19:21:00,user_029,Sales,Chicago,payroll,0,0,0,1,119,0
+2024-04-27 19:22:00,user_022,IT,New York,file_share,0,0,0,1,26,0
+2024-04-28 01:55:00,user_035,Engineering,Unknown,admin_panel,9,1,1,1,15,1
+2024-04-28 07:10:00,user_047,IT,Remote,file_share,0,0,0,1,65,0
+2024-04-28 07:52:00,user_016,Engineering,Remote,admin_panel,0,0,0,1,88,0
+2024-04-28 10:51:00,user_044,Executive,Remote,database,1,0,0,0,20,0
+2024-04-28 11:49:00,user_016,Executive,Remote,vpn,0,0,0,0,65,0
+2024-04-28 12:52:00,user_003,HR,Remote,vpn,1,0,0,1,86,0
+2024-04-28 14:08:00,user_045,IT,Remote,vpn,0,0,0,1,101,0
+2024-04-28 14:33:00,user_043,Finance,Remote,admin_panel,1,0,0,0,46,0
+2024-04-28 16:18:00,user_033,Executive,Chicago,email,1,0,0,0,116,0
+2024-04-28 16:59:00,user_036,HR,Chicago,database,0,0,0,0,19,0
+2024-04-29 00:13:00,user_001,HR,Unknown,database,5,1,0,0,4,1
+2024-04-29 09:24:00,user_035,Sales,Remote,database,1,0,0,0,21,0
+2024-04-29 09:28:00,user_013,Sales,New York,vpn,0,0,0,1,57,0
+2024-04-29 11:10:00,user_013,Finance,New York,email,1,0,0,1,19,0
+2024-04-29 12:15:00,user_023,Finance,Chicago,database,0,0,0,0,39,0
+2024-04-29 12:46:00,user_045,Sales,New York,database,1,0,0,1,116,0
+2024-04-29 13:28:00,user_034,Sales,New York,admin_panel,1,0,0,1,57,0
+2024-04-29 14:32:00,user_021,Executive,Chicago,vpn,0,0,0,1,117,0
+2024-04-29 18:10:00,user_002,Executive,Remote,payroll,1,0,0,0,84,0
+2024-04-30 03:52:00,user_048,HR,Unknown,payroll,8,0,0,0,11,1
+2024-04-30 10:17:00,user_007,Sales,Chicago,vpn,1,0,0,1,51,0
+2024-04-30 10:18:00,user_004,IT,New York,hr_system,1,0,0,1,82,0
+2024-04-30 11:35:00,user_006,Sales,Remote,payroll,0,0,0,1,119,0
+2024-04-30 11:54:00,user_026,Executive,Chicago,file_share,1,0,0,1,54,0
+2024-04-30 12:06:00,user_010,HR,New York,admin_panel,0,0,0,1,94,0
+2024-04-30 23:37:00,user_018,Finance,Unknown,database,10,0,0,1,23,1
+2024-05-01 00:41:00,user_037,Finance,Unknown,payroll,4,0,0,1,20,1
+2024-05-01 00:57:00,user_011,Sales,London,payroll,5,1,1,0,20,1
+2024-05-01 01:10:00,user_011,Finance,Unknown,admin_panel,5,0,0,0,5,1
+2024-05-01 07:40:00,user_003,Sales,Remote,file_share,1,0,0,0,78,0
+2024-05-01 08:04:00,user_045,Finance,New York,admin_panel,0,0,0,0,8,0
+2024-05-01 09:33:00,user_030,HR,Remote,hr_system,0,0,0,0,45,0
+2024-05-01 09:42:00,user_047,IT,Remote,payroll,0,0,0,0,38,0
+2024-05-01 09:47:00,user_029,Executive,Remote,admin_panel,1,0,0,1,38,0
+2024-05-01 09:55:00,user_008,Finance,Chicago,admin_panel,1,0,0,1,49,0
+2024-05-01 10:44:00,user_026,HR,Chicago,database,1,0,0,0,40,0
+2024-05-01 10:53:00,user_009,Finance,Chicago,admin_panel,0,0,0,1,41,0
+2024-05-01 12:36:00,user_019,HR,Remote,payroll,0,0,0,0,7,0
+2024-05-01 12:40:00,user_029,Finance,New York,file_share,0,0,0,1,76,0
+2024-05-01 13:44:00,user_001,IT,Remote,hr_system,1,0,0,0,31,0
+2024-05-01 13:44:00,user_026,Executive,Chicago,payroll,1,0,0,0,113,0
+2024-05-01 16:22:00,user_012,IT,New York,hr_system,0,0,0,0,67,0
+2024-05-01 17:11:00,user_021,Engineering,Chicago,admin_panel,0,0,0,0,29,0
+2024-05-01 17:22:00,user_036,IT,New York,email,1,0,0,1,69,0
+2024-05-01 18:04:00,user_017,Sales,New York,payroll,1,0,0,0,62,0
+2024-05-01 18:13:00,user_016,Engineering,Chicago,email,1,0,0,0,51,0
+2024-05-01 19:03:00,user_025,HR,Remote,vpn,1,0,0,0,33,0
+2024-05-01 19:32:00,user_045,Sales,Remote,vpn,0,0,0,1,18,0
+2024-05-02 00:33:00,user_032,IT,Unknown,payroll,6,1,0,1,5,1
+2024-05-02 07:22:00,user_012,IT,Chicago,email,1,0,0,0,57,0
+2024-05-02 10:47:00,user_010,Finance,New York,vpn,1,0,0,1,34,0
+2024-05-02 12:35:00,user_011,HR,New York,email,0,0,0,1,23,0
+2024-05-02 13:05:00,user_034,Sales,New York,file_share,1,0,0,1,24,0
+2024-05-02 14:46:00,user_010,Finance,Chicago,vpn,1,0,0,0,19,0
+2024-05-02 16:25:00,user_021,Executive,New York,file_share,0,0,0,0,89,0
+2024-05-02 18:54:00,user_026,Engineering,Chicago,payroll,1,0,0,1,88,0
+2024-05-03 02:36:00,user_004,HR,Unknown,database,4,0,0,1,19,1
+2024-05-03 07:09:00,user_002,IT,Remote,payroll,0,0,0,0,59,0
+2024-05-03 08:01:00,user_009,IT,Chicago,hr_system,0,0,0,1,10,0
+2024-05-03 10:21:00,user_006,IT,Chicago,database,0,0,0,1,104,0
+2024-05-03 10:44:00,user_046,Finance,New York,database,1,0,0,1,35,0
+2024-05-03 11:19:00,user_008,Executive,New York,payroll,0,0,0,1,38,0
+2024-05-03 11:20:00,user_034,Finance,Remote,database,0,0,0,0,112,0
+2024-05-03 12:01:00,user_024,Executive,Remote,hr_system,0,0,0,0,42,0
+2024-05-03 12:31:00,user_017,Finance,Remote,admin_panel,1,0,0,0,69,0
+2024-05-03 12:35:00,user_028,Engineering,New York,admin_panel,0,0,0,1,44,0
+2024-05-03 13:53:00,user_042,Engineering,Remote,file_share,1,0,0,1,36,0
+2024-05-03 14:44:00,user_046,Executive,New York,database,0,0,0,1,119,0
+2024-05-03 15:07:00,user_008,HR,New York,database,1,0,0,1,105,0
+2024-05-03 15:35:00,user_014,Sales,Chicago,vpn,1,0,0,1,44,0
+2024-05-03 16:40:00,user_033,Engineering,New York,vpn,0,0,0,0,100,0
+2024-05-03 18:46:00,user_012,Sales,Remote,payroll,0,0,0,1,10,0
+2024-05-03 19:09:00,user_031,Sales,Remote,hr_system,1,0,0,0,102,0
+2024-05-04 02:20:00,user_041,HR,London,payroll,5,0,0,0,30,1
+2024-05-04 02:21:00,user_029,HR,London,database,5,0,0,1,28,1
+2024-05-04 03:07:00,user_001,Engineering,Unknown,admin_panel,5,1,0,1,16,1
+2024-05-04 03:40:00,user_023,Engineering,Unknown,database,4,0,0,0,17,1
+2024-05-04 07:06:00,user_033,Executive,Chicago,file_share,0,0,0,0,79,0
+2024-05-04 07:56:00,user_003,Executive,Remote,admin_panel,0,0,0,0,5,0
+2024-05-04 10:06:00,user_034,IT,New York,vpn,0,0,0,0,17,0
+2024-05-04 11:42:00,user_023,Executive,New York,file_share,0,0,0,1,106,0
+2024-05-04 14:37:00,user_016,Finance,Chicago,vpn,0,0,0,0,118,0
+2024-05-04 14:48:00,user_040,HR,New York,payroll,0,0,0,1,102,0
+2024-05-04 14:58:00,user_025,Sales,New York,payroll,0,0,0,0,118,0
+2024-05-04 15:50:00,user_035,Engineering,Remote,file_share,1,0,0,1,77,0
+2024-05-04 19:52:00,user_032,Engineering,Remote,file_share,0,0,0,1,82,0
+2024-05-05 01:36:00,user_031,Finance,London,admin_panel,5,0,1,1,10,1
+2024-05-05 01:36:00,user_020,Sales,London,payroll,10,0,0,1,20,1
+2024-05-05 08:10:00,user_029,Executive,New York,email,0,0,0,0,28,0
+2024-05-05 11:05:00,user_013,HR,Chicago,hr_system,1,0,0,1,79,0
+2024-05-05 11:17:00,user_031,HR,New York,file_share,1,0,0,0,116,0
+2024-05-05 15:10:00,user_025,Engineering,Remote,database,0,0,0,1,22,0
+2024-05-05 15:12:00,user_044,HR,Remote,email,1,0,0,1,118,0
+2024-05-05 15:44:00,user_045,IT,Remote,email,1,0,0,0,96,0
+2024-05-05 15:45:00,user_037,Engineering,Chicago,payroll,1,0,0,1,94,0
+2024-05-05 16:56:00,user_005,Sales,New York,database,1,0,0,1,64,0
+2024-05-05 18:33:00,user_035,IT,Chicago,database,0,0,0,0,120,0
+2024-05-05 19:34:00,user_037,IT,Remote,payroll,1,0,0,1,78,0
+2024-05-06 03:54:00,user_026,IT,Unknown,payroll,9,0,0,1,2,1
+2024-05-06 09:29:00,user_015,Finance,Remote,hr_system,1,0,0,1,53,0
+2024-05-06 09:32:00,user_038,Sales,Chicago,file_share,0,0,0,0,101,0
+2024-05-06 10:50:00,user_024,IT,New York,payroll,0,0,0,0,51,0
+2024-05-06 11:17:00,user_034,Engineering,New York,vpn,1,0,0,0,13,0
+2024-05-06 14:07:00,user_037,IT,Chicago,hr_system,1,0,0,1,62,0
+2024-05-06 15:34:00,user_008,HR,Remote,admin_panel,1,0,0,1,15,0
+2024-05-06 16:12:00,user_002,HR,Remote,database,0,0,0,1,27,0
+2024-05-06 19:04:00,user_024,HR,New York,admin_panel,1,0,0,1,74,0
+2024-05-07 03:01:00,user_017,IT,Unknown,payroll,7,1,0,1,9,1
+2024-05-07 07:25:00,user_029,Finance,Remote,file_share,0,0,0,0,63,0
+2024-05-07 08:35:00,user_037,IT,Chicago,payroll,0,0,0,0,21,0
+2024-05-07 09:26:00,user_025,Executive,New York,admin_panel,0,0,0,0,119,0
+2024-05-07 09:46:00,user_015,HR,Chicago,vpn,1,0,0,1,21,0
+2024-05-07 10:10:00,user_045,Sales,New York,file_share,0,0,0,0,92,0
+2024-05-07 12:01:00,user_049,Executive,Chicago,admin_panel,1,0,0,1,112,0
+2024-05-07 13:01:00,user_018,Executive,Remote,database,0,0,0,1,52,0
+2024-05-07 13:55:00,user_044,IT,Chicago,admin_panel,0,0,0,0,120,0
+2024-05-07 17:18:00,user_018,Finance,New York,database,0,0,0,1,117,0
+2024-05-07 17:38:00,user_040,IT,Remote,admin_panel,1,0,0,0,19,0
+2024-05-08 00:23:00,user_002,Finance,London,payroll,4,0,1,1,2,1
+2024-05-08 09:29:00,user_015,Sales,Remote,payroll,1,0,0,0,55,0
+2024-05-08 10:33:00,user_016,IT,New York,database,1,0,0,0,101,0
+2024-05-08 11:10:00,user_026,Finance,Remote,email,0,0,0,1,48,0
+2024-05-08 12:26:00,user_047,Finance,Remote,hr_system,0,0,0,0,69,0
+2024-05-08 12:31:00,user_025,IT,Chicago,email,0,0,0,1,26,0
+2024-05-08 14:11:00,user_011,Finance,Remote,vpn,0,0,0,0,62,0
+2024-05-08 15:44:00,user_037,Finance,Chicago,database,1,0,0,0,83,0
+2024-05-08 17:45:00,user_017,IT,Chicago,database,1,0,0,1,59,0
+2024-05-08 18:15:00,user_023,Engineering,Remote,email,1,0,0,1,57,0
+2024-05-08 18:46:00,user_016,Engineering,New York,admin_panel,0,0,0,0,29,0
+2024-05-08 19:30:00,user_040,IT,Remote,database,0,0,0,0,20,0
+2024-05-08 23:10:00,user_041,Executive,Unknown,admin_panel,5,0,0,1,15,1
+2024-05-09 07:13:00,user_001,Executive,New York,email,0,0,0,1,52,0
+2024-05-09 07:16:00,user_016,HR,Remote,hr_system,0,0,0,1,43,0
+2024-05-09 08:04:00,user_025,Finance,Remote,file_share,0,0,0,1,7,0
+2024-05-09 09:18:00,user_030,Executive,New York,admin_panel,1,0,0,0,33,0
+2024-05-09 10:05:00,user_048,Executive,Chicago,admin_panel,0,0,0,1,66,0
+2024-05-09 11:19:00,user_041,HR,Chicago,payroll,0,0,0,1,103,0
+2024-05-09 13:26:00,user_017,HR,Chicago,email,0,0,0,0,78,0
+2024-05-09 15:51:00,user_039,HR,Remote,email,0,0,0,1,36,0
+2024-05-09 17:22:00,user_047,Executive,Remote,hr_system,1,0,0,1,113,0
+2024-05-09 19:06:00,user_027,Sales,New York,file_share,0,0,0,1,57,0
+2024-05-09 19:58:00,user_010,HR,Chicago,hr_system,0,0,0,1,101,0
+2024-05-09 22:38:00,user_003,HR,Unknown,payroll,4,1,0,0,15,1
+2024-05-10 01:05:00,user_001,IT,Unknown,payroll,10,1,0,0,15,1
+2024-05-10 07:20:00,user_038,Finance,Chicago,database,1,0,0,0,54,0
+2024-05-10 10:05:00,user_047,Finance,Remote,database,1,0,0,1,71,0
+2024-05-10 10:47:00,user_011,IT,Remote,hr_system,0,0,0,0,10,0
+2024-05-10 11:14:00,user_022,Engineering,New York,email,0,0,0,0,62,0
+2024-05-10 15:51:00,user_035,IT,Remote,payroll,1,0,0,1,67,0
+2024-05-10 15:53:00,user_026,Executive,Chicago,database,1,0,0,1,95,0
+2024-05-10 16:05:00,user_009,Sales,New York,file_share,0,0,0,1,53,0
+2024-05-10 16:42:00,user_031,Engineering,Remote,vpn,0,0,0,1,26,0
+2024-05-10 16:50:00,user_029,Finance,Remote,vpn,1,0,0,1,87,0
+2024-05-10 23:59:00,user_047,Engineering,Unknown,database,9,0,0,0,5,1
+2024-05-11 07:26:00,user_007,Executive,New York,hr_system,0,0,0,0,109,0
+2024-05-11 09:11:00,user_047,HR,Chicago,vpn,0,0,0,0,53,0
+2024-05-11 09:14:00,user_043,Engineering,Chicago,hr_system,0,0,0,0,108,0
+2024-05-11 14:41:00,user_050,HR,Chicago,admin_panel,0,0,0,0,115,0
+2024-05-11 15:03:00,user_042,Engineering,Chicago,payroll,0,0,0,1,7,0
+2024-05-11 16:27:00,user_016,IT,New York,vpn,1,0,0,1,44,0
+2024-05-11 17:57:00,user_017,Finance,Chicago,hr_system,0,0,0,0,111,0
+2024-05-12 01:15:00,user_007,HR,London,payroll,7,0,0,1,1,1
+2024-05-12 09:54:00,user_029,Sales,Remote,vpn,1,0,0,1,85,0
+2024-05-12 10:09:00,user_021,HR,Remote,hr_system,1,0,0,0,120,0
+2024-05-12 14:51:00,user_049,Finance,Chicago,hr_system,0,0,0,1,112,0
+2024-05-12 15:00:00,user_014,HR,Chicago,file_share,1,0,0,0,15,0
+2024-05-12 19:00:00,user_034,HR,New York,admin_panel,0,0,0,0,15,0
+2024-05-13 00:44:00,user_008,Finance,Unknown,admin_panel,3,1,0,1,30,1
+2024-05-13 08:26:00,user_041,Finance,Remote,database,0,0,0,1,115,0
+2024-05-13 08:45:00,user_024,Engineering,New York,email,1,0,0,1,111,0
+2024-05-13 08:56:00,user_040,Engineering,Remote,file_share,1,0,0,1,23,0
+2024-05-13 11:53:00,user_026,Engineering,Remote,admin_panel,1,0,0,1,72,0
+2024-05-13 13:52:00,user_023,Engineering,Remote,vpn,0,0,0,1,73,0
+2024-05-13 14:33:00,user_006,Finance,New York,vpn,1,0,0,0,51,0
+2024-05-13 17:33:00,user_047,Sales,New York,database,1,0,0,1,45,0
+2024-05-13 17:51:00,user_003,Sales,New York,admin_panel,0,0,0,0,54,0
+2024-05-13 18:24:00,user_020,Executive,Remote,hr_system,0,0,0,0,18,0
+2024-05-13 19:16:00,user_008,Engineering,New York,database,0,0,0,0,50,0
+2024-05-14 02:05:00,user_015,Finance,Unknown,payroll,3,0,0,1,28,1
+2024-05-14 07:19:00,user_042,IT,Remote,payroll,1,0,0,0,45,0
+2024-05-14 09:48:00,user_003,Finance,Chicago,admin_panel,1,0,0,1,82,0
+2024-05-14 10:04:00,user_033,Executive,New York,file_share,1,0,0,0,108,0
+2024-05-14 14:46:00,user_014,HR,Remote,vpn,1,0,0,0,35,0
+2024-05-14 15:39:00,user_031,Engineering,Chicago,hr_system,0,0,0,0,36,0
+2024-05-14 16:00:00,user_011,HR,Remote,hr_system,0,0,0,0,58,0
+2024-05-14 16:04:00,user_028,Engineering,New York,email,1,0,0,0,111,0
+2024-05-14 16:53:00,user_011,Engineering,New York,file_share,1,0,0,0,111,0
+2024-05-14 18:32:00,user_020,HR,Remote,email,1,0,0,0,70,0
+2024-05-14 19:35:00,user_021,IT,Chicago,database,1,0,0,0,6,0
+2024-05-14 22:46:00,user_031,Finance,London,admin_panel,9,1,1,1,8,1
+2024-05-15 00:24:00,user_005,Finance,London,admin_panel,3,1,0,1,21,1
+2024-05-15 07:15:00,user_013,Engineering,Remote,hr_system,0,0,0,1,47,0
+2024-05-15 13:39:00,user_050,IT,Chicago,vpn,1,0,0,0,94,0
+2024-05-15 14:50:00,user_019,HR,New York,admin_panel,0,0,0,0,80,0
+2024-05-15 15:00:00,user_017,IT,New York,vpn,1,0,0,1,104,0
+2024-05-15 16:55:00,user_002,Executive,Chicago,database,0,0,0,0,107,0
+2024-05-16 03:45:00,user_004,HR,London,database,4,0,0,1,20,1
+2024-05-16 07:00:00,user_004,Executive,Remote,admin_panel,1,0,0,1,6,0
+2024-05-16 07:02:00,user_028,Engineering,Chicago,admin_panel,1,0,0,0,98,0
+2024-05-16 09:22:00,user_008,IT,New York,database,1,0,0,1,62,0
+2024-05-16 10:02:00,user_015,HR,Remote,email,0,0,0,0,42,0
+2024-05-16 14:39:00,user_025,Sales,New York,hr_system,1,0,0,1,54,0
+2024-05-16 14:43:00,user_004,Executive,New York,hr_system,1,0,0,0,26,0
+2024-05-16 15:34:00,user_039,HR,Remote,email,1,0,0,1,33,0
+2024-05-16 16:22:00,user_040,Finance,New York,payroll,0,0,0,1,81,0
+2024-05-16 17:47:00,user_008,Sales,Chicago,database,1,0,0,1,117,0
+2024-05-16 19:19:00,user_046,HR,Remote,hr_system,0,0,0,1,56,0
+2024-05-17 02:14:00,user_011,IT,Unknown,database,3,1,0,1,18,1
+2024-05-17 03:35:00,user_009,IT,Unknown,database,3,0,0,1,27,1
+2024-05-17 03:38:00,user_008,Engineering,London,admin_panel,4,1,0,1,5,1
+2024-05-17 08:10:00,user_003,Executive,New York,file_share,0,0,0,0,85,0
+2024-05-17 08:13:00,user_005,Executive,New York,payroll,1,0,0,1,87,0
+2024-05-17 09:57:00,user_007,Sales,New York,payroll,1,0,0,0,38,0
+2024-05-17 11:10:00,user_038,Sales,New York,hr_system,0,0,0,0,97,0
+2024-05-17 13:54:00,user_006,IT,New York,admin_panel,1,0,0,1,22,0
+2024-05-17 16:51:00,user_010,Executive,Remote,hr_system,1,0,0,1,64,0
+2024-05-17 17:56:00,user_030,Sales,New York,hr_system,0,0,0,1,103,0
+2024-05-17 18:48:00,user_016,Sales,New York,vpn,1,0,0,0,107,0
+2024-05-17 19:18:00,user_038,IT,New York,database,0,0,0,1,117,0
+2024-05-17 19:35:00,user_038,Sales,Remote,hr_system,1,0,0,0,55,0
+2024-05-18 00:09:00,user_029,Finance,London,admin_panel,10,0,1,1,23,1
+2024-05-18 07:41:00,user_018,IT,Chicago,payroll,0,0,0,0,16,0
+2024-05-18 08:06:00,user_002,HR,Chicago,file_share,0,0,0,0,41,0
+2024-05-18 09:08:00,user_015,Finance,Remote,email,1,0,0,1,107,0
+2024-05-18 12:53:00,user_032,Engineering,Chicago,admin_panel,1,0,0,1,71,0
+2024-05-18 13:04:00,user_003,Executive,Remote,vpn,1,0,0,1,68,0
+2024-05-18 14:42:00,user_044,Engineering,New York,admin_panel,0,0,0,0,36,0
+2024-05-18 23:17:00,user_008,HR,Unknown,admin_panel,10,1,0,1,27,1
+2024-05-19 00:39:00,user_014,IT,London,admin_panel,5,0,1,1,24,1
+2024-05-19 08:04:00,user_038,Executive,New York,vpn,1,0,0,1,43,0
+2024-05-19 08:32:00,user_014,Engineering,New York,payroll,1,0,0,0,71,0
+2024-05-19 09:39:00,user_009,HR,New York,database,1,0,0,1,11,0
+2024-05-19 13:07:00,user_044,HR,Remote,database,0,0,0,0,87,0
+2024-05-19 13:22:00,user_025,Engineering,New York,admin_panel,1,0,0,1,17,0
+2024-05-19 14:53:00,user_023,Finance,Chicago,file_share,0,0,0,1,83,0
+2024-05-19 15:02:00,user_029,IT,Chicago,vpn,1,0,0,0,71,0
+2024-05-19 15:11:00,user_049,Finance,Remote,vpn,0,0,0,1,57,0
+2024-05-19 19:12:00,user_006,IT,Chicago,vpn,1,0,0,1,97,0
+2024-05-19 19:45:00,user_050,HR,New York,hr_system,0,0,0,1,6,0
+2024-05-20 07:53:00,user_029,HR,New York,database,0,0,0,0,78,0
+2024-05-20 08:59:00,user_002,Sales,Chicago,file_share,1,0,0,0,50,0
+2024-05-20 10:35:00,user_028,Executive,Remote,email,1,0,0,0,35,0
+2024-05-20 11:06:00,user_009,HR,New York,email,0,0,0,1,21,0
+2024-05-20 11:53:00,user_018,IT,Chicago,admin_panel,0,0,0,1,34,0
+2024-05-20 13:52:00,user_022,Sales,New York,file_share,0,0,0,1,5,0
+2024-05-20 15:28:00,user_036,Sales,Chicago,email,1,0,0,1,110,0
+2024-05-20 18:55:00,user_028,Executive,Remote,admin_panel,0,0,0,1,56,0
+2024-05-20 18:56:00,user_042,Sales,Chicago,file_share,0,0,0,1,97,0
+2024-05-20 18:59:00,user_025,HR,Chicago,vpn,0,0,0,0,37,0
+2024-05-20 19:00:00,user_031,Engineering,Chicago,database,0,0,0,1,29,0
+2024-05-20 19:21:00,user_045,IT,New York,database,1,0,0,0,25,0
+2024-05-20 19:27:00,user_050,HR,Chicago,payroll,0,0,0,0,42,0
+2024-05-21 03:31:00,user_030,IT,Unknown,payroll,5,0,0,1,20,1
+2024-05-21 07:37:00,user_034,Finance,New York,email,1,0,0,0,80,0
+2024-05-21 12:37:00,user_005,Executive,New York,database,0,0,0,0,60,0
+2024-05-21 15:25:00,user_039,Executive,New York,email,1,0,0,1,114,0
+2024-05-21 15:27:00,user_045,Engineering,Remote,vpn,1,0,0,1,54,0
+2024-05-21 19:44:00,user_032,IT,New York,email,1,0,0,1,77,0
+2024-05-21 23:44:00,user_037,Executive,London,database,9,0,0,1,12,1
+2024-05-22 03:44:00,user_025,Engineering,London,database,7,0,0,1,7,1
+2024-05-22 07:11:00,user_029,Engineering,Chicago,admin_panel,0,0,0,1,118,0
+2024-05-22 07:59:00,user_024,Engineering,Remote,vpn,0,0,0,0,16,0
+2024-05-22 08:02:00,user_007,HR,Chicago,admin_panel,0,0,0,0,103,0
+2024-05-22 08:22:00,user_037,Finance,Remote,admin_panel,0,0,0,1,19,0
+2024-05-22 10:48:00,user_027,IT,Chicago,database,0,0,0,0,43,0
+2024-05-22 12:01:00,user_026,Engineering,Remote,vpn,0,0,0,0,100,0
+2024-05-22 12:01:00,user_012,IT,Chicago,email,0,0,0,0,23,0
+2024-05-22 15:55:00,user_010,Executive,Remote,file_share,0,0,0,0,20,0
+2024-05-22 18:02:00,user_003,Finance,Remote,database,1,0,0,1,71,0
+2024-05-22 19:09:00,user_021,Finance,Chicago,hr_system,1,0,0,1,11,0
+2024-05-22 19:42:00,user_007,HR,Chicago,payroll,0,0,0,0,85,0
+2024-05-22 23:43:00,user_011,HR,Unknown,admin_panel,3,1,0,1,2,1
+2024-05-23 09:15:00,user_032,Executive,Chicago,vpn,1,0,0,1,100,0
+2024-05-23 10:07:00,user_028,Sales,Chicago,admin_panel,0,0,0,0,47,0
+2024-05-23 10:27:00,user_022,Finance,Remote,file_share,1,0,0,0,93,0
+2024-05-23 10:39:00,user_024,Executive,Chicago,hr_system,1,0,0,0,53,0
+2024-05-23 11:16:00,user_041,Executive,Chicago,payroll,1,0,0,0,55,0
+2024-05-23 14:31:00,user_008,IT,New York,payroll,1,0,0,1,59,0
+2024-05-23 15:09:00,user_044,Executive,New York,hr_system,0,0,0,1,22,0
+2024-05-23 15:18:00,user_013,Executive,Remote,email,0,0,0,1,49,0
+2024-05-23 15:52:00,user_034,Executive,New York,email,0,0,0,0,59,0
+2024-05-23 16:35:00,user_007,HR,New York,database,0,0,0,1,90,0
+2024-05-23 17:41:00,user_022,Executive,Remote,hr_system,1,0,0,1,108,0
+2024-05-23 17:57:00,user_043,HR,Remote,vpn,0,0,0,0,112,0
+2024-05-23 18:41:00,user_049,HR,Chicago,email,0,0,0,1,35,0
+2024-05-23 23:13:00,user_010,Executive,London,admin_panel,7,0,0,1,21,1
+2024-05-24 01:11:00,user_031,HR,London,admin_panel,5,1,0,1,16,1
+2024-05-24 03:24:00,user_022,Executive,London,payroll,5,1,0,0,11,1
+2024-05-24 09:21:00,user_035,Sales,Chicago,hr_system,0,0,0,0,42,0
+2024-05-24 09:30:00,user_007,HR,Remote,email,0,0,0,1,109,0
+2024-05-24 11:00:00,user_023,Executive,Chicago,email,1,0,0,0,82,0
+2024-05-24 14:48:00,user_012,Executive,New York,vpn,1,0,0,1,92,0
+2024-05-24 16:30:00,user_049,IT,Remote,hr_system,1,0,0,1,116,0
+2024-05-24 17:47:00,user_018,Engineering,New York,database,0,0,0,0,13,0
+2024-05-25 00:28:00,user_041,HR,Unknown,database,4,0,1,0,23,1
+2024-05-25 07:31:00,user_037,Engineering,Chicago,database,1,0,0,0,52,0
+2024-05-25 13:12:00,user_039,HR,Remote,email,1,0,0,1,52,0
+2024-05-25 14:24:00,user_002,IT,Chicago,email,1,0,0,0,17,0
+2024-05-25 15:24:00,user_038,Sales,Remote,admin_panel,1,0,0,1,93,0
+2024-05-25 16:48:00,user_040,IT,Remote,file_share,1,0,0,0,118,0
+2024-05-25 17:51:00,user_012,HR,New York,email,0,0,0,0,113,0
+2024-05-25 18:17:00,user_042,HR,New York,admin_panel,1,0,0,1,73,0
+2024-05-25 23:46:00,user_033,Engineering,London,admin_panel,10,0,0,0,4,1
+2024-05-26 02:54:00,user_045,HR,London,payroll,4,0,0,1,23,1
+2024-05-26 10:34:00,user_035,HR,Chicago,payroll,0,0,0,0,48,0
+2024-05-26 11:07:00,user_046,Engineering,Chicago,database,1,0,0,1,119,0
+2024-05-26 12:10:00,user_024,Sales,Remote,database,1,0,0,1,35,0
+2024-05-26 13:15:00,user_026,IT,Remote,admin_panel,0,0,0,0,59,0
+2024-05-26 14:37:00,user_031,IT,Remote,hr_system,1,0,0,0,62,0
+2024-05-26 16:36:00,user_008,Executive,Remote,vpn,0,0,0,1,40,0
+2024-05-26 16:45:00,user_017,Engineering,Chicago,hr_system,0,0,0,0,48,0
+2024-05-26 16:54:00,user_018,Finance,Chicago,hr_system,0,0,0,1,19,0
+2024-05-26 17:03:00,user_031,Executive,Remote,file_share,1,0,0,0,115,0
+2024-05-27 07:51:00,user_036,Finance,Remote,hr_system,1,0,0,1,21,0
+2024-05-27 12:32:00,user_017,Engineering,Remote,payroll,0,0,0,0,113,0
+2024-05-27 12:46:00,user_010,Executive,New York,hr_system,0,0,0,0,91,0
+2024-05-27 13:14:00,user_037,Engineering,New York,payroll,1,0,0,0,11,0
+2024-05-27 13:57:00,user_028,HR,Chicago,database,0,0,0,0,37,0
+2024-05-27 14:16:00,user_006,HR,Remote,hr_system,1,0,0,1,85,0
+2024-05-27 14:17:00,user_039,HR,Remote,hr_system,0,0,0,0,63,0
+2024-05-27 15:52:00,user_005,HR,New York,payroll,1,0,0,1,93,0
+2024-05-27 16:32:00,user_047,Executive,New York,email,0,0,0,1,73,0
+2024-05-27 16:42:00,user_019,IT,Remote,payroll,0,0,0,1,41,0
+2024-05-28 02:42:00,user_002,Finance,London,payroll,6,1,0,1,24,1
+2024-05-28 08:32:00,user_027,Engineering,Remote,hr_system,0,0,0,1,46,0
+2024-05-28 10:53:00,user_043,Finance,New York,file_share,0,0,0,1,15,0
+2024-05-28 12:48:00,user_013,Sales,Chicago,email,0,0,0,0,113,0
+2024-05-28 13:05:00,user_027,Sales,Remote,admin_panel,0,0,0,1,72,0
+2024-05-28 14:17:00,user_046,Executive,Chicago,hr_system,1,0,0,1,86,0
+2024-05-28 14:55:00,user_031,IT,New York,hr_system,0,0,0,1,39,0
+2024-05-28 18:13:00,user_020,Engineering,Chicago,payroll,0,0,0,0,10,0
+2024-05-28 18:54:00,user_020,Engineering,New York,database,0,0,0,0,80,0
+2024-05-28 19:47:00,user_020,IT,Chicago,file_share,0,0,0,0,49,0
+2024-05-29 07:03:00,user_004,Sales,New York,hr_system,1,0,0,1,69,0
+2024-05-29 07:53:00,user_024,Executive,Remote,admin_panel,0,0,0,1,24,0
+2024-05-29 10:13:00,user_020,IT,Chicago,database,1,0,0,1,11,0
+2024-05-29 10:24:00,user_039,HR,Remote,hr_system,1,0,0,0,89,0
+2024-05-29 15:59:00,user_037,Executive,New York,email,1,0,0,1,42,0
+2024-05-29 17:13:00,user_035,HR,Remote,admin_panel,0,0,0,1,16,0
+2024-05-29 18:03:00,user_031,Executive,Remote,database,0,0,0,1,26,0
+2024-05-29 23:47:00,user_023,HR,Unknown,database,4,0,1,1,22,1
+2024-05-30 02:55:00,user_010,Finance,London,database,9,1,0,0,11,1
+2024-05-30 10:08:00,user_036,Executive,New York,hr_system,0,0,0,1,116,0
+2024-05-30 10:33:00,user_026,Executive,Remote,vpn,1,0,0,1,97,0
+2024-05-30 14:42:00,user_041,Sales,New York,payroll,1,0,0,0,68,0
+2024-05-30 18:43:00,user_042,Engineering,Remote,hr_system,0,0,0,0,71,0
+2024-05-30 18:49:00,user_036,Finance,Chicago,file_share,1,0,0,1,35,0
+2024-05-31 00:08:00,user_042,IT,Unknown,admin_panel,10,1,0,1,23,1
+2024-05-31 01:15:00,user_048,Finance,London,database,5,1,0,1,19,1
+2024-05-31 03:58:00,user_011,Executive,Unknown,admin_panel,4,0,0,1,20,1
+2024-05-31 07:39:00,user_046,IT,Chicago,database,1,0,0,1,26,0
+2024-05-31 08:21:00,user_015,IT,Chicago,email,0,0,0,0,100,0
+2024-05-31 09:58:00,user_019,Finance,Chicago,email,1,0,0,0,18,0
+2024-05-31 10:29:00,user_039,Engineering,Remote,vpn,0,0,0,1,92,0
+2024-05-31 11:03:00,user_008,Finance,Chicago,admin_panel,0,0,0,0,113,0
+2024-05-31 11:16:00,user_008,Engineering,New York,hr_system,1,0,0,0,97,0
+2024-05-31 12:13:00,user_043,Engineering,New York,admin_panel,0,0,0,1,102,0
+2024-05-31 12:59:00,user_049,Executive,New York,vpn,0,0,0,1,30,0
+2024-05-31 14:55:00,user_021,IT,New York,admin_panel,0,0,0,0,88,0
+2024-05-31 17:19:00,user_027,Executive,New York,vpn,0,0,0,0,93,0
+2024-06-01 03:10:00,user_027,Finance,Unknown,database,8,0,0,1,6,1
+2024-06-01 08:29:00,user_006,Executive,New York,hr_system,0,0,0,0,18,0
+2024-06-01 09:35:00,user_049,Finance,Chicago,admin_panel,1,0,0,0,74,0
+2024-06-01 09:36:00,user_032,Finance,New York,payroll,0,0,0,1,61,0
+2024-06-01 10:41:00,user_046,IT,New York,hr_system,1,0,0,0,23,0
+2024-06-01 17:40:00,user_026,IT,Chicago,email,0,0,0,0,11,0
+2024-06-01 17:54:00,user_046,IT,New York,file_share,0,0,0,0,47,0
+2024-06-01 19:19:00,user_010,Finance,New York,email,0,0,0,1,61,0
+2024-06-02 03:16:00,user_045,Engineering,London,database,6,1,0,1,25,1
+2024-06-02 08:38:00,user_014,Engineering,Chicago,admin_panel,1,0,0,0,36,0
+2024-06-02 10:29:00,user_046,Finance,Remote,file_share,1,0,0,1,7,0
+2024-06-02 10:55:00,user_019,Engineering,New York,database,1,0,0,0,63,0
+2024-06-02 13:19:00,user_018,HR,New York,email,0,0,0,1,18,0
+2024-06-02 13:48:00,user_046,HR,Remote,payroll,0,0,0,1,103,0
+2024-06-02 14:59:00,user_025,IT,New York,payroll,0,0,0,1,16,0
+2024-06-02 16:07:00,user_020,HR,Remote,file_share,1,0,0,0,72,0
+2024-06-02 16:27:00,user_030,Executive,New York,email,1,0,0,1,24,0
+2024-06-02 16:49:00,user_041,IT,Remote,file_share,0,0,0,0,87,0
+2024-06-02 17:11:00,user_002,Executive,New York,admin_panel,0,0,0,0,33,0
+2024-06-03 01:26:00,user_046,Engineering,Unknown,database,6,0,0,0,25,1
+2024-06-03 09:40:00,user_042,Sales,Chicago,email,0,0,0,0,10,0
+2024-06-03 10:32:00,user_032,HR,New York,email,0,0,0,1,40,0
+2024-06-03 10:38:00,user_002,Engineering,New York,vpn,0,0,0,0,14,0
+2024-06-03 10:44:00,user_014,Executive,New York,hr_system,1,0,0,0,55,0
+2024-06-03 11:15:00,user_043,HR,Remote,admin_panel,0,0,0,0,6,0
+2024-06-03 11:20:00,user_022,Engineering,Remote,database,0,0,0,0,66,0
+2024-06-03 14:25:00,user_014,Executive,Chicago,hr_system,1,0,0,0,67,0
+2024-06-03 15:42:00,user_025,HR,Chicago,payroll,0,0,0,0,18,0
+2024-06-03 16:44:00,user_032,Engineering,Chicago,email,0,0,0,0,103,0
+2024-06-03 17:02:00,user_042,HR,New York,vpn,0,0,0,0,69,0
+2024-06-03 17:21:00,user_027,HR,New York,email,1,0,0,1,34,0
+2024-06-03 19:02:00,user_035,Finance,New York,email,1,0,0,0,89,0
+2024-06-03 23:47:00,user_008,Executive,London,database,9,0,0,1,23,1
+2024-06-04 01:35:00,user_040,IT,Unknown,database,6,0,1,1,10,1
+2024-06-04 07:24:00,user_025,IT,Chicago,file_share,0,0,0,0,46,0
+2024-06-04 09:02:00,user_042,Finance,Remote,hr_system,1,0,0,1,75,0
+2024-06-04 10:45:00,user_029,IT,Chicago,admin_panel,1,0,0,1,41,0
+2024-06-04 10:56:00,user_026,HR,Chicago,hr_system,0,0,0,0,103,0
+2024-06-04 15:54:00,user_012,Finance,New York,vpn,0,0,0,0,35,0
+2024-06-04 17:10:00,user_039,Engineering,Remote,email,1,0,0,1,25,0
+2024-06-04 18:20:00,user_021,HR,Chicago,admin_panel,1,0,0,0,77,0
+2024-06-04 19:32:00,user_002,HR,Chicago,vpn,0,0,0,0,59,0
+2024-06-04 19:37:00,user_036,HR,Chicago,vpn,1,0,0,1,64,0
+2024-06-04 23:49:00,user_025,Engineering,London,payroll,4,0,0,1,16,1
+2024-06-04 23:51:00,user_026,HR,London,database,7,1,0,1,28,1
+2024-06-05 08:16:00,user_011,Executive,Remote,hr_system,1,0,0,0,29,0
+2024-06-05 10:01:00,user_015,Finance,New York,email,1,0,0,1,112,0
+2024-06-05 12:51:00,user_014,HR,New York,admin_panel,1,0,0,1,49,0
+2024-06-05 12:59:00,user_031,Finance,Remote,database,0,0,0,1,25,0
+2024-06-05 13:32:00,user_002,Engineering,New York,admin_panel,0,0,0,1,116,0
+2024-06-05 13:47:00,user_048,Engineering,New York,database,1,0,0,0,49,0
+2024-06-05 15:48:00,user_025,IT,Chicago,hr_system,0,0,0,1,41,0
+2024-06-05 15:59:00,user_011,IT,Remote,database,0,0,0,1,56,0
+2024-06-05 16:24:00,user_017,Engineering,Remote,hr_system,1,0,0,1,80,0
+2024-06-05 17:19:00,user_020,HR,Remote,admin_panel,0,0,0,0,78,0
+2024-06-05 19:11:00,user_037,Executive,Remote,admin_panel,1,0,0,0,95,0
+2024-06-05 19:20:00,user_031,Engineering,Chicago,admin_panel,0,0,0,0,54,0
+2024-06-05 22:09:00,user_047,Sales,London,admin_panel,10,1,0,1,4,1
+2024-06-06 07:59:00,user_035,Engineering,Chicago,vpn,0,0,0,1,40,0
+2024-06-06 08:01:00,user_045,HR,New York,vpn,0,0,0,1,120,0
+2024-06-06 08:07:00,user_006,Sales,Chicago,file_share,0,0,0,0,97,0
+2024-06-06 09:25:00,user_011,Engineering,Remote,vpn,0,0,0,1,71,0
+2024-06-06 11:56:00,user_010,IT,Remote,email,1,0,0,0,36,0
+2024-06-06 14:51:00,user_023,Engineering,Remote,vpn,0,0,0,1,80,0
+2024-06-06 15:20:00,user_001,Engineering,Chicago,hr_system,1,0,0,1,77,0
+2024-06-06 15:27:00,user_021,Engineering,Remote,admin_panel,1,0,0,0,94,0
+2024-06-06 16:38:00,user_036,HR,New York,file_share,1,0,0,0,97,0
+2024-06-06 17:19:00,user_006,Executive,Remote,file_share,0,0,0,0,69,0
+2024-06-06 19:45:00,user_041,Sales,Chicago,file_share,1,0,0,1,27,0
+2024-06-06 19:47:00,user_034,Engineering,Chicago,database,1,0,0,1,31,0
+2024-06-07 01:40:00,user_020,Sales,London,admin_panel,5,0,0,0,28,1
+2024-06-07 07:56:00,user_047,Sales,New York,hr_system,1,0,0,0,55,0
+2024-06-07 08:32:00,user_034,Sales,Remote,vpn,1,0,0,0,41,0
+2024-06-07 08:49:00,user_015,Engineering,Chicago,vpn,1,0,0,1,107,0
+2024-06-07 09:55:00,user_018,Engineering,New York,vpn,0,0,0,0,34,0
+2024-06-07 12:28:00,user_008,HR,Remote,payroll,0,0,0,1,70,0
+2024-06-07 13:21:00,user_040,IT,New York,file_share,0,0,0,1,107,0
+2024-06-07 14:23:00,user_044,Engineering,Remote,email,0,0,0,1,68,0
+2024-06-07 14:44:00,user_047,Engineering,Chicago,file_share,1,0,0,0,110,0
+2024-06-07 14:46:00,user_037,Sales,Chicago,file_share,1,0,0,1,28,0
+2024-06-07 15:02:00,user_044,Engineering,Chicago,hr_system,1,0,0,0,35,0
+2024-06-07 17:21:00,user_019,IT,Remote,payroll,0,0,0,0,81,0
+2024-06-07 18:03:00,user_049,IT,New York,admin_panel,1,0,0,1,15,0
+2024-06-07 18:42:00,user_034,Finance,Remote,vpn,0,0,0,1,120,0
+2024-06-07 19:13:00,user_028,HR,Remote,database,0,0,0,1,114,0
+2024-06-07 19:15:00,user_040,IT,Chicago,vpn,1,0,0,0,12,0
+2024-06-07 23:46:00,user_021,Executive,Unknown,payroll,3,1,0,1,28,1
+2024-06-08 07:41:00,user_041,Sales,Remote,email,1,0,0,1,46,0
+2024-06-08 09:19:00,user_002,Engineering,Remote,hr_system,1,0,0,0,102,0
+2024-06-08 10:12:00,user_047,Executive,Remote,payroll,1,0,0,0,9,0
+2024-06-08 10:27:00,user_039,Sales,Remote,database,1,0,0,1,105,0
+2024-06-08 11:08:00,user_014,Sales,Remote,vpn,1,0,0,1,14,0
+2024-06-08 12:32:00,user_019,Sales,Remote,vpn,1,0,0,1,52,0
+2024-06-08 12:46:00,user_049,HR,Remote,vpn,0,0,0,1,115,0
+2024-06-08 13:16:00,user_020,Sales,Chicago,vpn,1,0,0,1,90,0
+2024-06-08 15:51:00,user_020,HR,Chicago,hr_system,0,0,0,1,117,0
+2024-06-08 23:48:00,user_007,IT,London,admin_panel,10,0,1,1,19,1
+2024-06-09 02:39:00,user_045,Finance,Unknown,database,3,0,1,1,2,1
+2024-06-09 09:36:00,user_037,IT,Chicago,database,0,0,0,1,92,0
+2024-06-09 13:12:00,user_042,Engineering,Remote,vpn,0,0,0,1,45,0
+2024-06-09 14:27:00,user_023,Sales,New York,payroll,0,0,0,1,116,0
+2024-06-09 14:49:00,user_008,IT,Remote,file_share,0,0,0,0,40,0
+2024-06-09 15:06:00,user_018,IT,Remote,email,1,0,0,1,34,0
+2024-06-09 16:03:00,user_030,Finance,New York,vpn,1,0,0,1,67,0
+2024-06-09 17:00:00,user_024,HR,Remote,vpn,0,0,0,0,33,0
+2024-06-09 17:06:00,user_049,Executive,Remote,payroll,0,0,0,0,44,0
+2024-06-10 02:26:00,user_018,Sales,London,payroll,9,1,0,1,16,1
+2024-06-10 02:43:00,user_001,Finance,Unknown,admin_panel,9,0,1,0,1,1
+2024-06-10 07:50:00,user_013,IT,Chicago,payroll,1,0,0,0,97,0
+2024-06-10 08:01:00,user_036,HR,Chicago,hr_system,1,0,0,0,95,0
+2024-06-10 09:36:00,user_046,Finance,Remote,admin_panel,1,0,0,1,85,0
+2024-06-10 12:50:00,user_022,HR,Remote,vpn,0,0,0,0,95,0
+2024-06-10 13:28:00,user_017,Sales,New York,file_share,1,0,0,1,60,0
+2024-06-10 14:21:00,user_030,Executive,New York,payroll,0,0,0,0,45,0
+2024-06-10 14:53:00,user_007,IT,New York,payroll,1,0,0,0,62,0
+2024-06-10 16:20:00,user_046,Sales,New York,file_share,0,0,0,1,91,0
+2024-06-10 16:24:00,user_040,Finance,New York,admin_panel,1,0,0,0,86,0
+2024-06-10 18:30:00,user_023,Executive,New York,payroll,1,0,0,0,108,0
+2024-06-10 18:39:00,user_008,Finance,New York,payroll,1,0,0,1,26,0
+2024-06-11 01:58:00,user_004,HR,Unknown,payroll,10,0,0,0,25,1
+2024-06-11 08:15:00,user_031,Finance,Chicago,email,0,0,0,1,46,0
+2024-06-11 08:22:00,user_030,IT,Remote,admin_panel,0,0,0,0,49,0
+2024-06-11 10:43:00,user_036,HR,Remote,vpn,1,0,0,1,69,0
+2024-06-11 13:03:00,user_044,IT,Remote,email,0,0,0,0,98,0
+2024-06-11 13:06:00,user_041,HR,New York,hr_system,0,0,0,0,61,0
+2024-06-11 13:09:00,user_035,Sales,Remote,admin_panel,0,0,0,0,28,0
+2024-06-11 16:26:00,user_021,Sales,Chicago,hr_system,1,0,0,1,74,0
+2024-06-11 16:50:00,user_047,HR,Remote,vpn,0,0,0,1,28,0
+2024-06-11 17:21:00,user_036,Engineering,New York,database,1,0,0,1,101,0
+2024-06-11 17:29:00,user_030,Executive,Chicago,vpn,1,0,0,0,115,0
+2024-06-11 18:50:00,user_016,IT,Chicago,vpn,1,0,0,0,99,0
+2024-06-12 07:04:00,user_029,Finance,Remote,email,1,0,0,1,53,0
+2024-06-12 09:18:00,user_050,Sales,Remote,hr_system,1,0,0,0,118,0
+2024-06-12 10:52:00,user_032,Executive,Remote,vpn,0,0,0,1,19,0
+2024-06-12 11:33:00,user_018,Executive,Chicago,email,1,0,0,0,70,0
+2024-06-12 12:30:00,user_009,Sales,New York,vpn,1,0,0,1,38,0
+2024-06-12 12:59:00,user_047,IT,Chicago,database,0,0,0,1,59,0
+2024-06-12 15:40:00,user_039,Executive,Remote,database,1,0,0,1,49,0
+2024-06-12 15:51:00,user_040,Engineering,New York,file_share,1,0,0,0,6,0
+2024-06-12 18:07:00,user_011,Sales,Remote,payroll,1,0,0,1,52,0
+2024-06-13 00:27:00,user_044,Executive,London,payroll,10,0,0,1,14,1
+2024-06-13 09:44:00,user_028,HR,New York,email,1,0,0,0,41,0
+2024-06-13 11:03:00,user_034,Finance,New York,payroll,0,0,0,1,116,0
+2024-06-13 11:20:00,user_039,Engineering,Remote,file_share,0,0,0,0,71,0
+2024-06-13 13:12:00,user_036,IT,Chicago,admin_panel,0,0,0,0,85,0
+2024-06-13 13:20:00,user_015,Engineering,Remote,payroll,1,0,0,1,30,0
+2024-06-13 16:11:00,user_026,Executive,Chicago,hr_system,0,0,0,0,90,0
+2024-06-13 16:53:00,user_034,Executive,Chicago,email,0,0,0,0,78,0
+2024-06-13 19:14:00,user_021,Finance,New York,file_share,0,0,0,1,40,0
+2024-06-14 08:11:00,user_018,Executive,New York,hr_system,1,0,0,1,63,0
+2024-06-14 08:15:00,user_010,Executive,Chicago,email,0,0,0,1,51,0
+2024-06-14 08:48:00,user_013,IT,Chicago,database,1,0,0,0,25,0
+2024-06-14 09:30:00,user_046,Sales,Remote,admin_panel,1,0,0,0,9,0
+2024-06-14 09:42:00,user_014,HR,New York,file_share,1,0,0,1,63,0
+2024-06-14 12:21:00,user_007,IT,New York,admin_panel,1,0,0,0,28,0
+2024-06-14 14:53:00,user_011,Sales,New York,hr_system,0,0,0,1,16,0
+2024-06-14 15:18:00,user_035,Executive,Remote,hr_system,1,0,0,0,43,0
+2024-06-14 15:57:00,user_029,HR,New York,hr_system,1,0,0,1,12,0
+2024-06-14 16:14:00,user_044,IT,Remote,database,1,0,0,0,86,0
+2024-06-14 17:14:00,user_041,IT,Remote,file_share,1,0,0,0,68,0
+2024-06-14 17:44:00,user_010,IT,Remote,hr_system,1,0,0,0,96,0
+2024-06-14 18:30:00,user_016,Engineering,Remote,payroll,0,0,0,1,62,0
+2024-06-14 18:47:00,user_027,Engineering,Chicago,vpn,0,0,0,1,111,0
+2024-06-14 19:15:00,user_018,Finance,Chicago,vpn,0,0,0,1,54,0
+2024-06-14 22:19:00,user_046,Finance,Unknown,database,3,0,0,1,26,1
+2024-06-14 23:52:00,user_041,Sales,Unknown,database,8,0,1,1,7,1
+2024-06-15 08:03:00,user_008,HR,Chicago,hr_system,1,0,0,0,62,0
+2024-06-15 10:30:00,user_008,Executive,New York,payroll,0,0,0,0,88,0
+2024-06-15 10:44:00,user_048,Executive,New York,admin_panel,0,0,0,0,6,0
+2024-06-15 12:26:00,user_028,Finance,New York,file_share,1,0,0,1,65,0
+2024-06-15 14:33:00,user_044,Sales,New York,payroll,0,0,0,1,40,0
+2024-06-15 16:40:00,user_014,Finance,Remote,file_share,1,0,0,0,44,0
+2024-06-15 18:35:00,user_009,Engineering,New York,email,1,0,0,1,64,0
+2024-06-15 22:12:00,user_003,Finance,Unknown,payroll,3,0,0,1,9,1
+2024-06-16 02:41:00,user_026,Finance,Unknown,database,9,1,1,1,29,1
+2024-06-16 07:38:00,user_024,Engineering,Chicago,email,0,0,0,1,108,0
+2024-06-16 09:15:00,user_047,Engineering,Remote,hr_system,1,0,0,0,43,0
+2024-06-16 09:51:00,user_021,Engineering,Remote,admin_panel,1,0,0,0,54,0
+2024-06-16 10:56:00,user_039,Executive,Chicago,admin_panel,1,0,0,1,57,0
+2024-06-16 14:20:00,user_048,Sales,New York,payroll,1,0,0,1,110,0
+2024-06-16 14:35:00,user_010,Finance,Chicago,database,0,0,0,1,37,0
+2024-06-16 19:09:00,user_009,Executive,Remote,vpn,1,0,0,0,45,0
+2024-06-16 19:47:00,user_005,Engineering,New York,email,1,0,0,0,103,0
+2024-06-17 01:54:00,user_039,Finance,London,database,3,0,0,1,26,1
+2024-06-17 02:39:00,user_040,Finance,London,database,10,1,0,1,26,1
+2024-06-17 02:43:00,user_001,Sales,Unknown,admin_panel,5,0,0,1,13,1
+2024-06-17 07:17:00,user_016,HR,Chicago,admin_panel,1,0,0,1,89,0
+2024-06-17 08:28:00,user_026,HR,Chicago,vpn,1,0,0,1,25,0
+2024-06-17 08:29:00,user_024,IT,Chicago,vpn,0,0,0,1,63,0
+2024-06-17 08:30:00,user_040,Sales,Remote,payroll,0,0,0,0,120,0
+2024-06-17 08:50:00,user_043,HR,Remote,file_share,1,0,0,0,79,0
+2024-06-17 11:50:00,user_047,Engineering,Remote,payroll,0,0,0,1,55,0
+2024-06-17 12:26:00,user_017,Sales,New York,hr_system,0,0,0,1,23,0
+2024-06-17 14:33:00,user_001,Engineering,Remote,email,1,0,0,0,20,0
+2024-06-17 15:34:00,user_028,Engineering,Chicago,hr_system,1,0,0,1,80,0
+2024-06-17 16:37:00,user_033,IT,Chicago,hr_system,1,0,0,1,115,0
+2024-06-17 16:59:00,user_049,Finance,Chicago,payroll,0,0,0,1,8,0
+2024-06-17 17:54:00,user_030,IT,New York,admin_panel,1,0,0,1,115,0
+2024-06-17 19:16:00,user_013,Finance,Remote,payroll,1,0,0,0,40,0
+2024-06-17 23:54:00,user_022,Executive,London,database,7,0,0,1,3,1
+2024-06-18 03:13:00,user_047,Sales,London,database,5,0,0,1,8,1
+2024-06-18 03:29:00,user_010,Finance,Unknown,payroll,10,1,1,0,4,1
+2024-06-18 10:18:00,user_005,Sales,Chicago,payroll,1,0,0,1,67,0
+2024-06-18 11:26:00,user_017,Finance,New York,hr_system,0,0,0,0,89,0
+2024-06-18 14:20:00,user_029,Executive,Chicago,email,0,0,0,0,49,0
+2024-06-18 15:00:00,user_019,Engineering,Chicago,file_share,0,0,0,0,63,0
+2024-06-18 15:20:00,user_048,Executive,New York,database,0,0,0,1,72,0
+2024-06-18 16:30:00,user_027,Executive,New York,database,0,0,0,1,40,0
+2024-06-18 17:51:00,user_006,Finance,Remote,hr_system,0,0,0,1,17,0
+2024-06-18 19:02:00,user_022,Finance,Chicago,email,1,0,0,0,120,0
+2024-06-18 19:38:00,user_035,IT,Remote,payroll,1,0,0,0,68,0
+2024-06-19 08:46:00,user_045,IT,Remote,payroll,0,0,0,0,46,0
+2024-06-19 09:31:00,user_013,Executive,Chicago,admin_panel,1,0,0,0,50,0
+2024-06-19 09:57:00,user_028,Sales,New York,hr_system,1,0,0,1,84,0
+2024-06-19 10:55:00,user_019,IT,New York,hr_system,1,0,0,1,112,0
+2024-06-19 11:27:00,user_005,Finance,New York,payroll,0,0,0,1,25,0
+2024-06-19 12:12:00,user_023,Finance,Remote,vpn,0,0,0,1,93,0
+2024-06-19 12:40:00,user_033,HR,Chicago,hr_system,1,0,0,0,24,0
+2024-06-19 15:00:00,user_044,HR,Remote,vpn,1,0,0,1,58,0
+2024-06-19 17:07:00,user_025,Finance,Remote,file_share,1,0,0,0,73,0
+2024-06-19 17:37:00,user_037,Finance,Remote,vpn,1,0,0,0,82,0
+2024-06-19 23:15:00,user_009,HR,Unknown,database,6,1,0,1,20,1
+2024-06-20 07:12:00,user_004,IT,Chicago,payroll,1,0,0,1,55,0
+2024-06-20 09:03:00,user_028,Sales,New York,email,1,0,0,0,30,0
+2024-06-20 09:42:00,user_019,Sales,Chicago,vpn,1,0,0,0,72,0
+2024-06-20 10:02:00,user_015,Finance,New York,file_share,1,0,0,0,71,0
+2024-06-20 14:01:00,user_041,IT,Remote,payroll,1,0,0,1,75,0
+2024-06-20 15:01:00,user_045,Engineering,Remote,email,0,0,0,1,91,0
+2024-06-20 15:21:00,user_020,Finance,Chicago,hr_system,1,0,0,1,74,0
+2024-06-20 17:18:00,user_007,Executive,Remote,file_share,0,0,0,1,58,0
+2024-06-20 18:29:00,user_015,Executive,Remote,file_share,1,0,0,1,102,0
+2024-06-20 18:44:00,user_035,HR,Remote,admin_panel,0,0,0,0,53,0
+2024-06-20 18:58:00,user_042,Sales,New York,payroll,0,0,0,0,37,0
+2024-06-20 19:44:00,user_045,Finance,Remote,hr_system,1,0,0,0,104,0
+2024-06-21 09:01:00,user_021,Sales,Remote,vpn,0,0,0,0,22,0
+2024-06-21 09:03:00,user_035,HR,Remote,hr_system,0,0,0,1,62,0
+2024-06-21 09:59:00,user_003,Engineering,New York,vpn,1,0,0,1,19,0
+2024-06-21 11:52:00,user_021,Finance,Chicago,payroll,1,0,0,1,81,0
+2024-06-21 12:41:00,user_025,Engineering,Remote,database,0,0,0,0,63,0
+2024-06-21 18:03:00,user_007,HR,Chicago,admin_panel,1,0,0,0,12,0
+2024-06-21 22:38:00,user_050,Sales,London,admin_panel,8,0,1,0,14,1
+2024-06-21 23:47:00,user_026,Sales,Unknown,database,8,1,0,1,4,1
+2024-06-22 00:23:00,user_006,Finance,London,admin_panel,10,0,0,1,28,1
+2024-06-22 01:41:00,user_007,HR,London,admin_panel,9,1,0,1,21,1
+2024-06-22 07:45:00,user_027,IT,Chicago,hr_system,1,0,0,0,90,0
+2024-06-22 08:25:00,user_011,Executive,Chicago,file_share,0,0,0,1,6,0
+2024-06-22 11:36:00,user_040,Finance,New York,hr_system,1,0,0,1,60,0
+2024-06-22 12:32:00,user_041,IT,New York,hr_system,1,0,0,0,8,0
+2024-06-22 13:21:00,user_039,Finance,New York,payroll,0,0,0,1,46,0
+2024-06-22 15:22:00,user_025,Finance,Chicago,database,1,0,0,1,83,0
+2024-06-22 15:24:00,user_028,Executive,New York,payroll,0,0,0,1,114,0
+2024-06-22 15:57:00,user_035,Executive,Chicago,file_share,1,0,0,0,22,0
+2024-06-22 16:41:00,user_050,Executive,Chicago,vpn,0,0,0,1,101,0
+2024-06-22 17:41:00,user_050,Finance,New York,hr_system,1,0,0,0,67,0
+2024-06-22 19:30:00,user_027,Engineering,New York,payroll,0,0,0,1,27,0
+2024-06-22 23:06:00,user_020,Executive,Unknown,admin_panel,8,0,0,0,18,1
+2024-06-23 00:22:00,user_029,IT,Unknown,database,7,1,0,1,7,1
+2024-06-23 01:31:00,user_026,Engineering,London,admin_panel,7,0,0,1,22,1
+2024-06-23 07:18:00,user_005,Engineering,Remote,email,1,0,0,0,55,0
+2024-06-23 07:57:00,user_009,HR,Remote,payroll,1,0,0,1,35,0
+2024-06-23 12:34:00,user_003,Finance,Remote,hr_system,1,0,0,0,42,0
+2024-06-23 12:52:00,user_019,IT,Remote,admin_panel,1,0,0,1,50,0
+2024-06-23 16:17:00,user_017,Sales,Chicago,database,1,0,0,1,101,0
+2024-06-23 17:56:00,user_017,Executive,New York,database,0,0,0,1,41,0
+2024-06-23 19:15:00,user_036,Sales,Remote,payroll,0,0,0,0,72,0
+2024-06-23 19:31:00,user_017,Sales,Chicago,email,1,0,0,1,110,0
+2024-06-23 19:34:00,user_009,HR,Remote,admin_panel,1,0,0,0,118,0
+2024-06-24 07:48:00,user_024,Engineering,New York,email,0,0,0,1,39,0
+2024-06-24 08:00:00,user_050,Engineering,New York,database,1,0,0,0,80,0
+2024-06-24 09:52:00,user_019,IT,Chicago,file_share,1,0,0,0,33,0
+2024-06-24 13:07:00,user_029,Finance,New York,file_share,1,0,0,0,112,0
+2024-06-24 13:10:00,user_040,Engineering,New York,email,1,0,0,1,116,0
+2024-06-24 13:27:00,user_001,Executive,Chicago,file_share,0,0,0,1,102,0
+2024-06-24 13:39:00,user_011,Executive,New York,hr_system,0,0,0,1,115,0
+2024-06-24 13:55:00,user_034,Engineering,Remote,email,1,0,0,0,63,0
+2024-06-24 13:56:00,user_003,HR,Chicago,hr_system,1,0,0,0,48,0
+2024-06-24 15:00:00,user_008,IT,New York,vpn,1,0,0,0,11,0
+2024-06-24 16:26:00,user_045,Finance,Chicago,payroll,1,0,0,0,8,0
+2024-06-24 18:04:00,user_016,IT,New York,vpn,0,0,0,1,22,0
+2024-06-24 18:14:00,user_007,HR,Remote,hr_system,0,0,0,1,67,0
+2024-06-24 19:04:00,user_033,IT,Remote,admin_panel,0,0,0,1,109,0
+2024-06-24 19:46:00,user_027,Sales,Chicago,hr_system,1,0,0,1,34,0
+2024-06-24 19:51:00,user_041,Executive,Chicago,admin_panel,0,0,0,1,43,0
+2024-06-25 00:37:00,user_038,HR,London,database,6,0,1,1,28,1
+2024-06-25 00:40:00,user_036,Engineering,Unknown,database,9,1,1,0,5,1
+2024-06-25 02:43:00,user_028,Sales,Unknown,admin_panel,10,0,1,1,4,1
+2024-06-25 11:47:00,user_004,Engineering,New York,payroll,1,0,0,0,40,0
+2024-06-25 15:00:00,user_001,Finance,Chicago,file_share,1,0,0,1,101,0
+2024-06-25 18:09:00,user_046,Executive,New York,vpn,0,0,0,0,44,0
+2024-06-25 18:17:00,user_040,Sales,Remote,hr_system,1,0,0,0,19,0
+2024-06-25 18:47:00,user_047,Finance,Chicago,email,0,0,0,1,88,0
+2024-06-25 19:49:00,user_017,Executive,Remote,vpn,0,0,0,1,29,0
+2024-06-25 23:49:00,user_032,HR,London,admin_panel,6,1,1,1,26,1
+2024-06-26 03:38:00,user_009,Executive,London,payroll,9,0,1,1,15,1
+2024-06-26 09:39:00,user_010,Sales,Chicago,admin_panel,0,0,0,0,81,0
+2024-06-26 09:53:00,user_049,Finance,Remote,hr_system,1,0,0,0,96,0
+2024-06-26 09:57:00,user_019,HR,Chicago,hr_system,0,0,0,1,48,0
+2024-06-26 10:46:00,user_040,Engineering,Chicago,admin_panel,0,0,0,1,68,0
+2024-06-26 11:20:00,user_012,Executive,New York,admin_panel,0,0,0,0,96,0
+2024-06-26 14:44:00,user_024,IT,New York,email,1,0,0,0,82,0
+2024-06-26 17:10:00,user_039,HR,New York,admin_panel,1,0,0,1,108,0
+2024-06-26 17:14:00,user_007,IT,Chicago,vpn,0,0,0,0,64,0
+2024-06-26 17:35:00,user_017,Finance,Chicago,vpn,0,0,0,0,69,0
+2024-06-26 19:27:00,user_030,IT,Remote,admin_panel,1,0,0,1,37,0
+2024-06-26 22:24:00,user_046,Finance,Unknown,admin_panel,6,1,0,0,30,1
+2024-06-27 00:49:00,user_020,Finance,London,admin_panel,4,0,0,1,14,1
+2024-06-27 02:42:00,user_008,Sales,Unknown,database,10,0,0,0,29,1
+2024-06-27 09:53:00,user_008,Engineering,Remote,file_share,1,0,0,0,20,0
+2024-06-27 12:15:00,user_039,IT,Remote,payroll,1,0,0,1,118,0
+2024-06-27 13:24:00,user_007,Engineering,Chicago,hr_system,1,0,0,0,64,0
+2024-06-27 13:49:00,user_030,IT,Chicago,payroll,0,0,0,1,31,0
+2024-06-27 14:17:00,user_044,Sales,Chicago,email,0,0,0,1,107,0
+2024-06-27 14:23:00,user_009,Sales,Remote,email,1,0,0,1,7,0
+2024-06-27 15:13:00,user_031,Executive,Chicago,file_share,1,0,0,0,83,0
+2024-06-27 15:52:00,user_002,HR,Remote,file_share,0,0,0,1,108,0
+2024-06-27 16:53:00,user_029,HR,New York,hr_system,0,0,0,1,26,0
+2024-06-27 17:11:00,user_012,Executive,Chicago,admin_panel,1,0,0,0,55,0
+2024-06-27 17:42:00,user_032,IT,Remote,email,1,0,0,1,113,0
+2024-06-27 18:07:00,user_014,IT,Remote,email,0,0,0,0,57,0
+2024-06-27 19:51:00,user_050,Engineering,Remote,admin_panel,1,0,0,0,62,0
+2024-06-28 02:08:00,user_027,IT,Unknown,admin_panel,5,1,0,0,4,1
+2024-06-28 07:36:00,user_034,Sales,Chicago,vpn,0,0,0,0,29,0
+2024-06-28 08:27:00,user_016,Executive,Chicago,database,0,0,0,0,53,0
+2024-06-28 09:41:00,user_040,IT,Chicago,database,1,0,0,0,68,0
+2024-06-28 09:45:00,user_023,Sales,Remote,file_share,1,0,0,0,106,0
+2024-06-28 10:21:00,user_035,Executive,Chicago,file_share,1,0,0,1,16,0
+2024-06-28 12:03:00,user_046,Executive,New York,hr_system,1,0,0,0,89,0
+2024-06-28 14:50:00,user_002,Sales,Chicago,hr_system,0,0,0,1,56,0
+2024-06-28 16:33:00,user_027,HR,Chicago,vpn,0,0,0,1,111,0
+2024-06-28 17:09:00,user_040,Executive,New York,email,1,0,0,0,21,0
+2024-06-28 17:18:00,user_028,Executive,Remote,hr_system,1,0,0,0,16,0
+2024-06-28 17:19:00,user_024,Executive,New York,email,1,0,0,0,59,0
+2024-06-28 17:43:00,user_001,IT,New York,file_share,1,0,0,1,90,0
+2024-06-28 18:08:00,user_043,Executive,New York,email,0,0,0,0,25,0
