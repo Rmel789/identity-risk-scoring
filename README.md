@@ -17,6 +17,8 @@
 
 ## Tech Stack
 - Python, Pandas, NumPy
-- Scikit-learn (Isolation Forest)
 - Matplotlib, Seaborn
 - Jupyter Notebook
+
+# identity-risk-scoring
+Rule-based and ML identity risk scoring system using Python and Isolation Forest
